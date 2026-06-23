@@ -30,7 +30,7 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 20,
     },
     ["Limit Buy Seed"] = {
-        ["Carrot"] = 9999, 
+        ["Carrot"] = 10, 
         ["Strawberry"] = 5,
         ["Blueberry"] = 5,
         ["Tulip"] = 5,
@@ -100,7 +100,6 @@ getgenv().UserConfig = {
             ["Ice Serpent"] = 1,
         },
         ["Seed"] = {
-            ["Carrot"] = {Amount = 300, To = "duypet99gem01"},
             ["Rainbow"] = 2,
             ["Gold"] = 3,
             ["Mushroom"] = 5,
