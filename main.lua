@@ -73,8 +73,6 @@ getgenv().UserConfig = {
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
-            "Common Sprinkler",
-            "Uncommon Sprinkler",
             "Rare Sprinkler",
             "Legendary Sprinkler",
             "Super Sprinkler",
