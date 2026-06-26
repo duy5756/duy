@@ -118,7 +118,7 @@ getgenv().UserConfig = {
             ["Super Sprinkler"] = 1,
             ["Common Sprinkler"] = 15,
             ["Uncommon Sprinkler"] = 10,
-            ["Rare Sprinkler"] = 10,
+            ["Rare Sprinkler"] = 15,
             ["Legendary Sprinkler"] = 1,
         },
     },
