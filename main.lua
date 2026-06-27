@@ -30,13 +30,31 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 20,
     },
     ["Limit Buy Seed"] = {
+        ["Bamboo"] = 100,
+        ["Corn"] = 5,
+        ["Cactus"] = 5,
+        ["Pineangle"] = 5,
+        ["Mushroom"] = 100,
+        ["Green Bean"] = 5,
+        ["Banana"] = 2,
+        ["Grape"] = 2,
+        ["Coconut"] = 2,
+        ["Mango"] = 2,
+        ["Dragon Fruit"] = 2,
+        ["Acorn"] = 2,
+        ["Cherry"] = 2,
+        ["Sunflower"] = 2,
+        ["Venus Fly Trap"] = 2,
+        ["Pomegranate"] = 2,
+        ["Poison Apple"] = 2,
+        ["Venom Spitter"] = 10,
         ["Moon Bloom"] = 100,
         ["Dragon's Breath"] = 100,
     },
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"},
 ["Shovel Plant Once"] = {},
     ["Favorite"] = {
-       ["Horned Melon"] = {"Mega", "Rainbow", "Gold"},
+       ["Horned Melon"] = {"Rainbow", "Gold"},
     },
     ["Buy Pets"] = {
         ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
@@ -45,10 +63,10 @@ getgenv().UserConfig = {
         ["Deer"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Unicorn"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Monkey"] = 999, -- mua 999 tất cả loại
+        ["Bear"] = 999,
+        ["Golden Dragonfly"] = 999,
+        ["Unicorn"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
@@ -61,6 +79,7 @@ getgenv().UserConfig = {
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
+            "Legendary Sprinkler",
             "Super Sprinkler",
             "Super Watering Can",
         },
@@ -92,8 +111,6 @@ getgenv().UserConfig = {
             ["Rainbow"] = 2,
             ["Mega"] = 1,
             ["Gold"] = 3,
-            ["Mushroom"] = 10,
-            ["Bamboo"] = 350,
             ["Dragon's Breath"] = 1,
             ["Venom Spitter"] = 1,
             ["Moon Bloom"] = 1,
@@ -110,6 +127,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Gold", "Dragon's Breath", "Bamboo", "Mushroom"}
+    ["Blacklist Seed"] = {"Mega", "Rainbow", "Gold", "Dragon's Breath", "Venom Spitter", "Moon Bloom"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
