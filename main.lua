@@ -88,7 +88,7 @@ getgenv().UserConfig = {
     ["Webhook URL"] = "https://discord.com/api/webhooks/1516792376377606144/4aO-Yrwva02ISZNd05c6iD1vdqFNnyyQLn0Jd7Sgj6Sv63LCvl1Y1vp0o9f59HM3_y63",
     ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer", "Bear"},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
-    ["Webhook Seed Name"] = {"Rainbow", "Gold"},
+    ["Webhook Seed Name"] = {"Mega", "Rainbow", "Gold"},
     ["Webhook Note"] = "xx",
     ["Discord ID"] = "908622152834625599",
     ["Mail To Username"] = {"noopbt"},
@@ -109,6 +109,7 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
             ["Rainbow"] = 2,
+            ["Mega"] = 1,
             ["Gold"] = 3,
             ["Mushroom"] = 10,
             ["Bamboo"] = 350,
