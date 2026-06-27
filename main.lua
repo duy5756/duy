@@ -65,7 +65,7 @@ getgenv().UserConfig = {
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"},
 ["Shovel Plant Once"] = {},
     ["Favorite"] = {
-       ["Horned Melon"] = {"Rainbow", "Gold"},
+       ["Horned Melon"] = {"Mega", "Rainbow", "Gold"},
     },
     ["Buy Pets"] = {
         ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
@@ -74,10 +74,10 @@ getgenv().UserConfig = {
         ["Deer"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Monkey"] = 999, -- mua 999 tất cả loại
-        ["Bear"] = 999,
-        ["Golden Dragonfly"] = 999,
-        ["Unicorn"] = 999,
+        ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Unicorn"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
