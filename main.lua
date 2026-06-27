@@ -39,11 +39,11 @@ getgenv().UserConfig = {
         ["Tulip"] = 5,
         ["Tomato"] = 5,
         ["Apple"] = 5,
-        ["Bamboo"] = 9999,
+        ["Bamboo"] = 200,
         ["Corn"] = 5,
         ["Cactus"] = 5,
         ["Pineangle"] = 5,
-        ["Mushroom"] = 9999,
+        ["Mushroom"] = 200,
         ["Green Bean"] = 5,
         ["Banana"] = 2,
         ["Grape"] = 2,
@@ -77,7 +77,7 @@ getgenv().UserConfig = {
         ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Bear"] = 999
         ["Golden Dragonfly"] = 999,
         ["Unicorn"] = 999,
         ["Raccoon"] = 999,
@@ -94,7 +94,6 @@ getgenv().UserConfig = {
         ["Buy Gear"] = {
          "Uncommon Sprinkler",
          "Rare Sprinkler",
-            "Legendary Sprinkler",
             "Super Sprinkler",
             "Super Watering Can",
         },
@@ -133,7 +132,7 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
             ["Rainbow"] = 2,
-            ["Mega"] = 1,
+            ["Mega"] = 2,
             ["Gold"] = 3,
             ["Dragon's Breath"] = 1,
             ["Venom Spitter"] = 1,
@@ -142,7 +141,7 @@ getgenv().UserConfig = {
         ["Gear"] = {
             ["Super Watering Can"] = 1,
             ["Super Sprinkler"] = 1,
-            ["Legendary Sprinkler"] = 4,
+            ["Legendary Sprinkler"] = 1,
         },
     },
     ["Claim Mail"] = true,
