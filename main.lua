@@ -77,7 +77,7 @@ getgenv().UserConfig = {
         ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bear"] = 999
+        ["Bear"] = 999,
         ["Golden Dragonfly"] = 999,
         ["Unicorn"] = 999,
         ["Raccoon"] = 999,
