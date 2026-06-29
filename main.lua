@@ -1,7 +1,7 @@
-setfpscap(7)
+setfpscap(20)
 script_key = "hGwxOfPreWCdoHWkOreOUtvBJejDkXli";
 getgenv().UserConfig = {
-    ["FPS Cap"] = 7,
+    ["FPS Cap"] = 20,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
