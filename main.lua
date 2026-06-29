@@ -47,7 +47,7 @@ getgenv().UserConfig = {
         ["Venus Fly Trap"] = 2,
         ["Moon Bloom"] = 100,
         ["Hypno Bloom"] = 100,
-        ["Dragon's Breath"] = 100,
+        
     },
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo"},
 ["Shovel Plant Once"] = {},
