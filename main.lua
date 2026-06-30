@@ -1,7 +1,7 @@
-setfpscap(12)
+setfpscap(15)
 script_key = "hGwxOfPreWCdoHWkOreOUtvBJejDkXli";
 getgenv().UserConfig = {
-    ["FPS Cap"] = 12,
+    ["FPS Cap"] = 15,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
@@ -140,4 +140,4 @@ getgenv().UserConfig = {
     ["Limit Auto Plant"] = 800,
     ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom"}
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cbe5e2d7d845580db3cfd92d7c3ad9bd.lua"))()
