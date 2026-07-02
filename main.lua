@@ -24,6 +24,7 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 10,
     },
     ["Limit Buy Seed"] = {
+        ["Carrot"] = 999, 
         ["Bamboo"] = 300,
         ["Mushroom"] = 150,
         ["Dragon Fruit"] = 2,
@@ -69,8 +70,9 @@ getgenv().UserConfig = {
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
-         "Uncommon Sprinkler",
-         "Rare Sprinkler",
+             "Uncommon Sprinkler",
+             "Rare Sprinkler",
+             "Legendary Sprinkler",
             "Super Sprinkler",
             "Super Watering Can",
         },
@@ -109,6 +111,7 @@ getgenv().UserConfig = {
              ["Turtle"] = 1,
         },
         ["Seed"] = {
+            ["Carrot"] = {Amount = 800, To = "duypet99gem01"}
             ["Rainbow"] = 2,
             ["Mega"] = 2,
             ["Dragon's Breath"] = 1,
@@ -119,12 +122,12 @@ getgenv().UserConfig = {
         ["Gear"] = {
             ["Super Watering Can"] = 1,
             ["Super Sprinkler"] = 1,
-            ["Legendary Sprinkler"] = 1,
+            ["Legendary Sprinkler"] = 4,
         },
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom"}
+    ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Carrot"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cbe5e2d7d845580db3cfd92d7c3ad9bd.lua"))()
