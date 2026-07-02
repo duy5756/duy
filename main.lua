@@ -32,7 +32,6 @@ getgenv().UserConfig = {
         ["Cherry"] = 2,
         ["Sunflower"] = 2,
         ["Venus Fly Trap"] = 2,
-        ["Pomegranate"] = 10,
         ["Dragon's Breath"] = 10,  
         ["Hypno Bloom"] = 100,
         
