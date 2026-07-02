@@ -70,7 +70,7 @@ getgenv().UserConfig = {
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
-    ["Unlock Pet Slots"] = 5,
+    ["Unlock Pet Slots"] = 6,
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
