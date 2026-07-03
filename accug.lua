@@ -25,8 +25,17 @@ getgenv().UserConfig = {
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 9999, 
+        ["Strawberry"] = 5,
+        ["Blueberry"] = 5,
+        ["Tulip"] = 5,
+        ["Tomato"] = 5,
+        ["Apple"] = 5,
         ["Bamboo"] = 300,
+        ["Corn"] = 5,
+        ["Cactus"] = 5,
+        ["Pineapple"] = 5, 
         ["Mushroom"] = 300, 
+        ["Green Bean"] = 5, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Banana"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Grape"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Coconut"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
