@@ -24,18 +24,9 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 10,
     },
     ["Limit Buy Seed"] = {
-        ["Carrot"] = 5, 
-        ["Strawberry"] = 5,
-        ["Blueberry"] = 5,
-        ["Tulip"] = 5,
-        ["Tomato"] = 5,
-        ["Apple"] = 5,
+        ["Carrot"] = 9999, 
         ["Bamboo"] = 300,
-        ["Corn"] = 5,
-        ["Cactus"] = 5,
-        ["Pineapple"] = 5, 
         ["Mushroom"] = 300, 
-        ["Green Bean"] = 5, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Banana"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Grape"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Coconut"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
@@ -122,6 +113,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Mega"}
+    ["Blacklist Seed"] = {"Mega", "Carrot"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cbe5e2d7d845580db3cfd92d7c3ad9bd.lua"))()
