@@ -72,7 +72,6 @@ getgenv().UserConfig = {
         ["Buy Gear"] = {
              "Uncommon Sprinkler",
              "Rare Sprinkler",
-             "Legendary Sprinkler",
             "Super Sprinkler",
             "Super Watering Can",
         },
