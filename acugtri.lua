@@ -25,19 +25,8 @@ getgenv().UserConfig = {
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 999, 
-        ["Strawberry"] = 5,
-        ["Blueberry"] = 5,
-        ["Tulip"] = 5,
-        ["Tomato"] = 5,
-        ["Apple"] = 5,
         ["Bamboo"] = 300,
-        ["Corn"] = 5,
-        ["Cactus"] = 5,
-        ["Pineapple"] = 5, 
         ["Mushroom"] = 300, 
-        ["Green Bean"] = 5, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
-        ["Banana"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
-        ["Grape"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Coconut"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Mango"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Dragon Fruit"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
@@ -45,8 +34,6 @@ getgenv().UserConfig = {
         ["Cherry"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Sunflower"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Venus Fly Trap"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
-        ["Pomegranate"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
-        ["Poison Apple"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Venom Spitter"] = 10, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Briar Rose"] = 10, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Romanesco"] = 10, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
@@ -76,6 +63,8 @@ getgenv().UserConfig = {
         ["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Unicorn"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Butterfly"] = 999,
+        ["Bald Eagle"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
@@ -90,6 +79,8 @@ getgenv().UserConfig = {
         ["Buy Gear"] = {
              "Uncommon Sprinkler",
              "Rare Sprinkler",
+            "Super Sprinkler",
+            "Super Watering Can",
         },
         ["Gears To Use"] = {
             "Uncommon Sprinkler",
@@ -98,7 +89,7 @@ getgenv().UserConfig = {
     },
        -- WH Pet
     ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB",
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer", "Bunny", "Turtle"},
+    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer", "Bunny", "Turtle", "Butterfly", "Bald Eagle"},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
  	-- WH Seed
     ["Webhook Seed URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB",
@@ -111,20 +102,39 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"trimiozzz"},
     ["Items To Mail"] = {
         ["Pet"] = {
-
+           ["Butterfly"] = 1,
+            ["Bald Eagle"] = 1,
+            ["Frog"] = 1,
+            ["Owl"] = 1,
+            ["Deer"] = {Big = 1, Huge = 1, Rainbow = 1},
+            ["Robin"] = 1,
+            ["Bee"] = 1,
+            ["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1},
+            ["Golden Dragonfly"] = 1,
+            ["Unicorn"] = 1,
+            ["Raccoon"] = 1,
+            ["Monkey"] = 1,
+            ["Bear"] = 1,
+            ["Ice Serpent"] = 1,
+            ["Turtle"] = 1,
         },
         ["Seed"] = {
-            ["Rainbow"] = 1,
-            ["Gold"] = 2,
             ["Carrot"] = {Amount = 300, To = "duypet99gem01"},
-            ["Mega"] = 2,
+            ["Rainbow"] = 1,
+            ["Mega"] = 1,
+            ["Gold"] = 2,
+            ["Dragon's Breath"] = 1,
+            ["Hypno Bloom"] = 1,
+            ["Moon Bloom"] = 1,
         },
         ["Gear"] = {
+            ["Super Watering Can"] = 1,
+            ["Super Sprinkler"] = 1,
         },
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Mega", "Carrot", "Gold", "Rainbow"}
+    ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Carrot", "Gold"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cbe5e2d7d845580db3cfd92d7c3ad9bd.lua"))()
