@@ -28,16 +28,18 @@ getgenv().UserConfig = {
         ["Bamboo"] = 300,
         ["Mushroom"] = 150,
         ["Dragon Fruit"] = 2,
+        ["Rocket Pop"] = 20,
         ["Acorn"] = 2,
         ["Cherry"] = 2,
         ["Sunflower"] = 2,
+        ["Fire Fern"] = 2,
         ["Venus Fly Trap"] = 2,
         ["Venom Spitter"] = 10,
         ["Dragon's Breath"] = 10,  
         ["Hypno Bloom"] = 100,
         
     },
-["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo"},
+["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo", "Rocket Pop"},
 ["Shovel Plant Once"] = {},
     ["Favorite"] = {
        ["Horned Melon"] = {"Mega", "Rainbow", "Gold"},
@@ -58,6 +60,8 @@ getgenv().UserConfig = {
         ["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Unicorn"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Butterfly"] = 999,
+        ["Bald Eagle"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
@@ -82,7 +86,7 @@ getgenv().UserConfig = {
     },
        -- WH Pet
     ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1520466700884115558/UGQT9MHNQX8yxA3kHR073ExOKTW2DgDOrT2VpnPSKLj5PiFZX9AnKrGzvuLRo2Qe-Rxc",
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer", "Bunny", "Turtle"},
+    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer", "Bunny", "Turtle", "Butterfly", "Bald Eagle"},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
  	-- WH Seed
     ["Webhook Seed URL"] = "https://discord.com/api/webhooks/1520466518104608970/yH3BmsZZtSuvznYBGJs-57ys1zk4OJlxzWm1fF1fJM_N_wpvfhgmKt4nIMBSnf3nSgoN",
@@ -92,9 +96,11 @@ getgenv().UserConfig = {
     ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Webhook Note"] = "ye",
     ["Discord ID"] = "908622152834625599",
-    ["Mail To Username"] = {},
+    ["Mail To Username"] = {"noopbt"},
     ["Items To Mail"] = {
         ["Pet"] = {
+            ["Butterfly"] = 1,
+            ["Bald Eagle"] = 1,
             ["Frog"] = 1,
             ["Owl"] = 1,
             ["Deer"] = 1,
@@ -107,7 +113,7 @@ getgenv().UserConfig = {
             ["Monkey"] = 1,
             ["Bear"] = 1,
             ["Ice Serpent"] = 1,
-             ["Turtle"] = 1,
+            ["Turtle"] = 1,
         },
         ["Seed"] = {
             ["Carrot"] = {Amount = 300, To = "duypet99gem01"},
