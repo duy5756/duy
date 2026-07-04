@@ -123,6 +123,7 @@ getgenv().UserConfig = {
 
         },
         ["Seed"] = {
+            ["Rainbow"] = 2,
             ["Carrot"] = {Amount = 300, To = "duypet99gem01"},
             ["Mega"] = 2,
         },
@@ -132,6 +133,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Mega", "Carrot"}
+    ["Blacklist Seed"] = {"Mega", "Carrot", "Rainbow"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cbe5e2d7d845580db3cfd92d7c3ad9bd.lua"))()
