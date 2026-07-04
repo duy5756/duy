@@ -35,6 +35,7 @@ getgenv().UserConfig = {
         ["Cactus"] = 5,
         ["Pineapple"] = 5, 
         ["Mushroom"] = 300, 
+        ["Rocket Pop"] = 20,
         ["Green Bean"] = 5, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Banana"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Grape"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
@@ -55,7 +56,7 @@ getgenv().UserConfig = {
         ["Dragon's Breath"] = 100,
         
     },
-["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo"},
+["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo", "Rocket Pop"},
 ["Shovel Plant Once"] = {},
     ["Favorite"] = {
        ["Horned Melon"] = {"Mega", "Rainbow", "Gold"},
@@ -76,6 +77,8 @@ getgenv().UserConfig = {
         ["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Unicorn"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Butterfly"] = 999,
+        ["Bald Eagle"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
@@ -98,7 +101,7 @@ getgenv().UserConfig = {
     },
        -- WH Pet
     ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1520466700884115558/UGQT9MHNQX8yxA3kHR073ExOKTW2DgDOrT2VpnPSKLj5PiFZX9AnKrGzvuLRo2Qe-Rxc",
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer", "Bunny", "Turtle"},
+    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer", "Bunny", "Turtle", "Butterfly", "Bald Eagle"},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
  	-- WH Seed
     ["Webhook Seed URL"] = "https://discord.com/api/webhooks/1520466518104608970/yH3BmsZZtSuvznYBGJs-57ys1zk4OJlxzWm1fF1fJM_N_wpvfhgmKt4nIMBSnf3nSgoN",
@@ -111,6 +114,21 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"noopbt"},
     ["Items To Mail"] = {
         ["Pet"] = {
+             ["Butterfly"] = 1,
+            ["Bald Eagle"] = 1,
+            ["Frog"] = 1,
+            ["Owl"] = 1,
+            ["Deer"] = 1,
+            ["Robin"] = 1,
+            ["Bee"] = 1,
+            ["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1},
+            ["Golden Dragonfly"] = 1,
+            ["Unicorn"] = 1,
+            ["Raccoon"] = 1,
+            ["Monkey"] = 1,
+            ["Bear"] = 1,
+            ["Ice Serpent"] = 1,
+            ["Turtle"] = 1,
 
         },
         ["Seed"] = {
