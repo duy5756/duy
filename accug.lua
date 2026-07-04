@@ -60,7 +60,7 @@ getgenv().UserConfig = {
         ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
         ["Bunny"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
         ["Owl"] = {Huge = 99, Rainbow = 99},
-        ["Deer"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Deer"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
         ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
@@ -74,7 +74,7 @@ getgenv().UserConfig = {
         ["Black Dragon"] = 999,
     },
     ["Equip Pets"] = {
-        {"Bunny", 6, 1},
+        {"Deer", 6, 1},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
@@ -109,7 +109,7 @@ getgenv().UserConfig = {
             ["Bald Eagle"] = 1,
             ["Frog"] = 1,
             ["Owl"] = 1,
-            ["Deer"] = 1,
+            ["Deer"] = {Big = 1, Huge = 1, Rainbow = 1},
             ["Robin"] = 1,
             ["Bee"] = 1,
             ["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1},
