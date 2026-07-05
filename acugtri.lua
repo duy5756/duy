@@ -120,8 +120,8 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
             ["Carrot"] = {Amount = 300, To = "duypet99gem01"},
-            ["Rainbow"] = 1,
-            ["Mega"] = 1,
+            ["Rainbow"] = 2,
+            ["Mega"] = 2,
             ["Gold"] = 2,
             ["Dragon's Breath"] = 1,
             ["Hypno Bloom"] = 1,
