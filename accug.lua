@@ -69,7 +69,7 @@ getgenv().UserConfig = {
         ["Black Dragon"] = 999,
     },
     ["Equip Pets"] = {
-        {"Deer", 6, 1},
+        {"Bunny", 6, 1},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
@@ -121,9 +121,9 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
             ["Carrot"] = {Amount = 300, To = "duypet99gem01"},
-            ["Rainbow"] = 2,
+            ["Rainbow"] = 5,
             ["Mega"] = 2,
-            ["Gold"] = 2,
+            ["Gold"] = 10,
             ["Dragon's Breath"] = 1,
             ["Hypno Bloom"] = 1,
             ["Moon Bloom"] = 1,
