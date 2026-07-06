@@ -129,7 +129,7 @@ getgenv().UserConfig = {
             ["Moon Bloom"] = 1,
         },
         ["Gear"] = {
-            ["Super Watering Can"] = 1,
+            ["Super Watering Can"] = 3,
             ["Super Sprinkler"] = 1,
         },
     },
