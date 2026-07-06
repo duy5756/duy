@@ -43,7 +43,7 @@ getgenv().UserConfig = {
         
     },
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo", "Rocket Pop"},
-["Shovel Plant Once"] = {},
+["Shovel Plant Once"] = {"noopbt"},
     ["Favorite"] = {
        ["Horned Melon"] = {"Mega", "Rainbow", "Gold"},
     },
