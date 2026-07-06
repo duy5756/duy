@@ -62,7 +62,7 @@ getgenv().UserConfig = {
         ["Golden Dragonfly"] = 99,
         ["Unicorn"] = 99,
         ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Butterfly"] = 999,
+        ["Butterfly"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bald Eagle"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
@@ -98,7 +98,7 @@ getgenv().UserConfig = {
     ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Webhook Note"] = "ye",
     ["Discord ID"] = "908622152834625599",
-    ["Mail To Username"] = {},
+    ["Mail To Username"] = {"noopbt"},
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Butterfly"] = 1,
