@@ -126,7 +126,7 @@ getgenv().UserConfig = {
             ["Carrot"] = {Amount = 300, To = "duypet99gem01"},
             ["Rainbow"] = 2,
             ["Mega"] = 2,
-            ["Gold"] = 2,
+            ["Gold"] = 5,
             ["Dragon's Breath"] = 1,
             ["Hypno Bloom"] = 1,
             ["Moon Bloom"] = 1,
