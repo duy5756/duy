@@ -27,7 +27,6 @@ getgenv().UserConfig = {
         ["Carrot"] = 9999, 
         ["Bamboo"] = 300,
         ["Mushroom"] = 150,
-        ["Coconut"] = 2,
         ["Mango"] = 2, 
         ["Dragon Fruit"] = 2,
         ["Rocket Pop"] = 20,
@@ -35,6 +34,7 @@ getgenv().UserConfig = {
         ["Cherry"] = 2,
         ["Sunflower"] = 2,
         ["Fire Fern"] = 2,
+        ["Pomegranate"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Venom Spitter"] = 10,
         ["Dragon's Breath"] = 100,  
         
