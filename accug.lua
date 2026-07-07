@@ -30,6 +30,7 @@ getgenv().UserConfig = {
         ["Banana"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Grape"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Coconut"] = 2,
+         ["Mango"] = 2, 
         ["Dragon Fruit"] = 2,
         ["Rocket Pop"] = 20,
         ["Acorn"] = 2,
