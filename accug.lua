@@ -119,9 +119,9 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
             ["Carrot"] = {Amount = 300, To = "duypet99gem01"},
-            ["Rainbow"] = 5,
+            ["Rainbow"] = 3,
             ["Mega"] = 2,
-            ["Gold"] = 10,
+            ["Gold"] = 5,
             ["Dragon's Breath"] = 1,
             ["Hypno Bloom"] = 1,
             ["Moon Bloom"] = 1,
@@ -136,4 +136,4 @@ getgenv().UserConfig = {
     ["Limit Auto Plant"] = 800,
     ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Carrot", "Gold"}
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2df5fc5e0dcd634a4405a4740eab1890.lua"))()
