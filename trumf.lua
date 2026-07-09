@@ -24,13 +24,10 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 10,
     },
     ["Limit Buy Seed"] = {
-       ["Carrot"] = 999, 
         ["Bamboo"] = 300,
         ["Mushroom"] = 300, 
         ["Fire Fern"] = 5, 
         ["Rocket Pop"] = 300, 
-        ["Green Bean"] = 5, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
-        ["Banana"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Grape"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Coconut"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Mango"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
@@ -124,7 +121,6 @@ getgenv().UserConfig = {
             ["Turtle"] = 1,
         },
         ["Seed"] = {
-            ["Carrot"] = {Amount = 300, To = "duypet99gem01"},
             ["Rainbow"] = 2,
             ["Mega"] = 2,
             ["Gold"] = 2,
