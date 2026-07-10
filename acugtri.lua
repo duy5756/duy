@@ -116,7 +116,7 @@ getgenv().UserConfig = {
             ["Turtle"] = {Amount = 1, To = "noopbt"},
         },
         ["Seed"] = {
-            ["Pineapple"] = {Amount = 5, To = "noopbt"},
+            ["Pineapple"] = {Amount = 300, To = "noopbt"},
             ["Rainbow"] = 2,
             ["Mega"] = 2,
             ["Venom Spitter"] = 1,
