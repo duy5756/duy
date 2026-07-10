@@ -116,7 +116,7 @@ getgenv().UserConfig = {
             ["Turtle"] = 1,
         },
         ["Seed"] = {
-            ["Pineapple"] = 5,
+            ["Pineapple"] = 300,
             ["Rainbow"] = 5,
             ["Mega"] = 2,
             ["Gold"] = 10,
