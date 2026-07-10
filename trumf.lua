@@ -24,7 +24,7 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 10,
     },
     ["Limit Buy Seed"] = {
-        ["Pineapple"] = 999, 
+       ["Pineapple"] = 999, 
         ["Bamboo"] = 300,
         ["Mushroom"] = 150,
         ["Banana"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
@@ -76,14 +76,20 @@ getgenv().UserConfig = {
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
-             "Uncommon Sprinkler",
-             "Rare Sprinkler",
+            "Common Watering Can",
+            "Common Sprinkler",
+            "Uncommon Sprinkler",
+            "Rare Sprinkler",
+             "Legendary Sprinkler",
             "Super Sprinkler",
             "Super Watering Can",
         },
         ["Gears To Use"] = {
+             "Common Watering Can",
+            "Common Sprinkler",
             "Uncommon Sprinkler",
-             "Rare Sprinkler",
+            "Rare Sprinkler",
+             "Legendary Sprinkler",
         },
     },
        -- WH Pet
