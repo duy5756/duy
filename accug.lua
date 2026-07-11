@@ -143,4 +143,4 @@ getgenv().UserConfig = {
     ["Limit Auto Plant"] = 800,
     ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Carrot", "Gold", "Venom Spitter", "Pineapple", "Rocket Pop"}
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2df5fc5e0dcd634a4405a4740eab1890.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
