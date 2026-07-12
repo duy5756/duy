@@ -43,7 +43,7 @@ getgenv().UserConfig = {
         
     },
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo", "Rocket Pop"},
-["Shovel Plant Once"] = {"noopbt"},
+["Shovel Plant Once"] = {},
     ["Favorite"] = {
        ["Horned Melon"] = {"Mega", "Rainbow", "Gold"},
     },
@@ -105,7 +105,7 @@ getgenv().UserConfig = {
     ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Webhook Note"] = "ye",
     ["Discord ID"] = "908622152834625599",
-    ["Mail To Username"] = {},
+    ["Mail To Username"] = {"noopbt"},
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Butterfly"] = 1,
