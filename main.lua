@@ -32,7 +32,6 @@ getgenv().UserConfig = {
         ["Rocket Pop"] = 999,
         ["Acorn"] = 2,
         ["Cherry"] = 2,
-        ["Sunflower"] = 2,
         ["Fire Fern"] = 2,
         ["Poison Apple"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
         ["Venom Spitter"] = 10,
