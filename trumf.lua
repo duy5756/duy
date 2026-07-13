@@ -74,6 +74,7 @@ getgenv().UserConfig = {
         ["Butterfly"] = 999,
         ["Bald Eagle"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Raccoon"] = 999,
+            ["Firefly"] = 999,
         ["Black Dragon"] = 999,
     },
     ["Equip Pets"] = {
@@ -131,6 +132,7 @@ getgenv().UserConfig = {
             ["Bear"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
             ["Ice Serpent"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
             ["Turtle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
+                ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
         },
         ["Seed"] = {
             ["Pineapple"] = {Amount = 300, To = "noopbt"},
