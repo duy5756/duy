@@ -37,6 +37,9 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 100,
         ["Hypno Bloom"] = 100,
         ["Dragon's Breath"] = 100,
+         ["Sun Bloom"] = 1,
+        ["Star Fruit"] = 1,
+        ["Eclipse Bloom"] = 1, 
         
     },
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo"},
@@ -133,6 +136,9 @@ getgenv().UserConfig = {
             ["Dragon's Breath"] = 1,
             ["Hypno Bloom"] = 1,
             ["Moon Bloom"] = 1,
+             ["Sun Bloom"] = 1,
+        ["Star Fruit"] = 1,
+        ["Eclipse Bloom"] = 1, 
         },
         ["Gear"] = {
             ["Super Watering Can"] = 1,
@@ -142,6 +148,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Carrot", "Gold", "Venom Spitter", "Pineapple", "Rocket Pop"}
+    ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Carrot", "Gold", "Venom Spitter", "Pineapple", "Rocket Pop", , "Sun Bloom", "Star Fruit", "Eclipse Bloom"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
