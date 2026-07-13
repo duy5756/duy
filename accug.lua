@@ -40,6 +40,9 @@ getgenv().UserConfig = {
         ["Hypno Bloom"] = 9,
         ["Moon Bloom"] = 9,
         ["Dragon's Breath"] = 100,  
+        ["Sun Bloom"] = 9,
+        ["Star Fruit"] = 9,
+        ["Eclipse Bloom"] = 100,  
         
     },
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo", "Rocket Pop"},
@@ -66,6 +69,7 @@ getgenv().UserConfig = {
         ["Butterfly"] = 999,
         ["Bald Eagle"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Raccoon"] = 999,
+        ["Firefly"] = 999,
         ["Black Dragon"] = 999,
     },
     ["Equip Pets"] = {
