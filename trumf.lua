@@ -48,7 +48,9 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 100,
         ["Hypno Bloom"] = 100,
         ["Dragon's Breath"] = 100,
-        
+        ["Sun Bloom"] = 9,
+        ["Star Fruit"] = 9,
+        ["Eclipse Bloom"] = 100,  
     },
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo"},
 ["Shovel Plant Once"] = {},
@@ -144,6 +146,9 @@ getgenv().UserConfig = {
             ["Dragon's Breath"] = 1,
             ["Hypno Bloom"] = 1,
             ["Moon Bloom"] = 1,
+              ["Sun Bloom"] = 1,
+        ["Star Fruit"] = 1,
+        ["Eclipse Bloom"] = 1,  
         },
         ["Gear"] = {
             ["Super Watering Can"] = 1,
