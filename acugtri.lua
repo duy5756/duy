@@ -35,7 +35,6 @@ getgenv().UserConfig = {
         ["Cherry"] = 2,
         ["Fire Fern"] = 2,
         ["Venom Spitter"] = 10,
-        ["Moon Bloom"] = 100,
         ["Hypno Bloom"] = 100,
         ["Dragon's Breath"] = 100,
          ["Sun Bloom"] = 1,
@@ -107,7 +106,7 @@ getgenv().UserConfig = {
     ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Webhook Note"] = "ye",
     ["Discord ID"] = "1269564008915144705",
-    ["Mail To Username"] = {"CanhSatKoiii"},
+    ["Mail To Username"] = {"trimiozz"},
     ["Items To Mail"] = {
         ["Pet"] = {
            ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
