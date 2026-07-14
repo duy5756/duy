@@ -79,6 +79,7 @@ getgenv().UserConfig = {
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
+             "Basic Pot",
             "Common Watering Can",
             "Common Sprinkler",
             "Uncommon Sprinkler",
@@ -143,6 +144,7 @@ getgenv().UserConfig = {
         ["Gear"] = {
             ["Super Watering Can"] = 1,
             ["Super Sprinkler"] = 1,
+            [ "Basic Pot"] = {Amount = 5, To = "noopbt"},
         },
     },
     ["Claim Mail"] = true,
