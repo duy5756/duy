@@ -37,6 +37,7 @@ getgenv().UserConfig = {
         ["Venom Spitter"] = 10,
         ["Hypno Bloom"] = 100,
         ["Dragon's Breath"] = 100,
+                ["Pomegranate"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
          ["Sun Bloom"] = 1,
         ["Star Fruit"] = 1,
         ["Eclipse Bloom"] = 1, 
