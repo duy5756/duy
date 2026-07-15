@@ -101,7 +101,7 @@ getgenv().UserConfig = {
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
  	-- WH Seed
     ["Webhook Seed URL"] = "https://discord.com/api/webhooks/1520466518104608970/yH3BmsZZtSuvznYBGJs-57ys1zk4OJlxzWm1fF1fJM_N_wpvfhgmKt4nIMBSnf3nSgoN",
-    ["Webhook Seed Name"] = {"Rainbow", "Mega", "Dragon's Breath", "Hypno Bloom", "Moon Bloom", "Briar Rose", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"},
+    ["Webhook Seed Name"] = {"Rainbow", "Mega", "Dragon's Breath", "Hypno Bloom", "Moon Bloom", "Briar Rose", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Sun Bloom", "Star Fruit"},
     	-- WH Gear
     ["Webhook Gear URL"] = "https://discord.com/api/webhooks/1520466786095595650/0fEwvTDJS39ZeJQ_aUDD_bCg3Ukss2YA5h-rk43y5F2V3kZgeBLSEo8prn09lvqgJ-z9",
     ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
