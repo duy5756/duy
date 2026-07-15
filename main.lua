@@ -91,7 +91,6 @@ getgenv().UserConfig = {
             "Common Sprinkler",
             "Uncommon Sprinkler",
             "Rare Sprinkler",
-             "Legendary Sprinkler",
         },
     },
        -- WH Pet
@@ -142,7 +141,7 @@ getgenv().UserConfig = {
         ["Gear"] = {
             ["Super Watering Can"] = 3,
             ["Super Sprinkler"] = 1,
-            ["Basic Pot"] = 4,
+         ["Legendary Sprinkler"] = 5,
         },
     },
     ["Claim Mail"] = true,
