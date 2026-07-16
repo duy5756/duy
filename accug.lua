@@ -90,6 +90,7 @@ getgenv().UserConfig = {
             "Common Sprinkler",
             "Uncommon Sprinkler",
             "Rare Sprinkler",
+            "Legendary Sprinkler",
         },
     },
        -- WH Pet
