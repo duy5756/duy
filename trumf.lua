@@ -129,7 +129,7 @@ getgenv().UserConfig = {
                 ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
         },
         ["Seed"] = {
-            ["Bamboo"] = {Amount = 500, To = "noopbt"},
+          ["Bamboo"] = {Amount = 500, To = "duypet99gem01"},
             ["Rocket Pop"] = {Amount = 30, To = "noopbt"},
             ["Rainbow"] = 2,
             ["Mega"] = 2,
