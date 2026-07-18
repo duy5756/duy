@@ -24,8 +24,7 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 10,
     },
     ["Limit Buy Seed"] = {
-        ["Pineapple"] = 999,
-        ["Bamboo"] = 300,
+        ["Bamboo"] = 900,
         ["Mushroom"] = 150,
         ["Dragon Fruit"] = 2,
         ["Rocket Pop"] = 999,
@@ -128,7 +127,7 @@ getgenv().UserConfig = {
             ["Firefly"] = 1,
         },
         ["Seed"] = {
-            ["Pineapple"] = 300,
+          ["Bamboo"] = {Amount = 500, To = "duypet99gem01"},
              ["Rocket Pop"] = 20,
             ["Rainbow"] = 5,
             ["Mega"] = 10,
