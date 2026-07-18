@@ -25,7 +25,6 @@ getgenv().UserConfig = {
     },
     ["Limit Buy Seed"] = {
         ["Bamboo"] = 300,
-        ["Pineapple"] = 999, 
         ["Mushroom"] = 300, 
         ["Fire Fern"] = 5, 
         ["Rocket Pop"] = 300, 
@@ -94,6 +93,7 @@ getgenv().UserConfig = {
             "Common Sprinkler",
             "Uncommon Sprinkler",
             "Rare Sprinkler",
+            "Legendary Sprinkler",
         },
     },
        -- WH Pet
@@ -129,7 +129,7 @@ getgenv().UserConfig = {
                 ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
         },
         ["Seed"] = {
-            ["Pineapple"] = {Amount = 300, To = "noopbt"},
+            ["Bamboo"] = {Amount = 500, To = "noopbt"},
             ["Rocket Pop"] = {Amount = 30, To = "noopbt"},
             ["Rainbow"] = 2,
             ["Mega"] = 2,
@@ -144,7 +144,6 @@ getgenv().UserConfig = {
         ["Gear"] = {
             ["Super Watering Can"] = 1,
             ["Super Sprinkler"] = 1,
-            ["Legendary Sprinkler"] = {Amount = 5, To = "noopbt"},
         },
     },
     ["Claim Mail"] = true,
