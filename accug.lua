@@ -130,7 +130,7 @@ getgenv().UserConfig = {
         ["Seed"] = {
           ["Bamboo"] = {Amount = 500, To = "duypet99gem01"},
             ["Rainbow"] = 5,
-            ["Mega"] = 10,
+            ["Mega"] = 5,
             ["Rocket Pop"] = 20,
             ["Gold"] = 10,
             ["Pineapple"] = 300,
