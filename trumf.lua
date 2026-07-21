@@ -24,7 +24,7 @@ getgenv().UserConfig = {
         ["Poison Apple"] = 10,
     },
     ["Limit Buy Seed"] = {
-        ["Bamboo"] = 300,
+        ["Bamboo"] = 900,
         ["Mushroom"] = 300, 
         ["Fire Fern"] = 5, 
         ["Rocket Pop"] = 300, 
