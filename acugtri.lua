@@ -35,9 +35,11 @@ getgenv().UserConfig = {
         ["Fire Fern"] = 2,
         ["Venom Spitter"] = 10,
         ["Pomegranate"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
-         ["Sun Bloom"] = 1,
-        ["Star Fruit"] = 1,
-        ["Eclipse Bloom"] = 1, 
+         ["Moon Bloom"] = 100,
+        ["Hypno Bloom"] = 100,
+        ["Dragon's Breath"] = 100,
+        ["Sun Bloom"] = 100,
+        ["Star Fruit"] = 100,
         
     },
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo"},
