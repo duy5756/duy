@@ -130,7 +130,7 @@ getgenv().UserConfig = {
             ["Firefly"] = 1,
         },
         ["Seed"] = {
-          ["Bamboo"] = {Amount = 500, To = "duypet99gem01"},
+
              ["Rocket Pop"] = 20,
             ["Rainbow"] = 5,
             ["Mega"] = 5,
