@@ -54,12 +54,6 @@ getgenv().UserConfig = {
         -- ["Mushroom"] = {"Rainbow", "Gold", "Bloodlit", "Electric", "Starstruck", "Frozen", "Aurora"},  
     },
     ["Buy Pets"] = {
-        ["Frog"] = 99,
-        ["Bunny"] = 99,
-        ["Owl"] = 99,
-        ["Deer"] = 99,
-        ["Robin"] = 99,
-        ["Bee"] = 99,
         ["Monkey"] = 99,
         ["Bear"] = 99,
         ["Golden Dragonfly"] = 11,
