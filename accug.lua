@@ -1,8 +1,7 @@
-
-setfpscap(10)
+setfpscap(15)
 script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB";
 getgenv().UserConfig = {
-    ["FPS Cap"] = 10,
+    ["FPS Cap"] = 15,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
@@ -73,6 +72,13 @@ getgenv().UserConfig = {
     },
     ["Equip Pets"] = {
         {"Bunny", 6, 1},
+    },
+    ["Sell Pets"] = {
+        ["Frog"] = {Normal = 1},
+        ["Bunny"] = {Normal = 1},
+        ["Owl"] = {Normal = 1},
+        ["Deer"] = {Normal = 1},
+        ["Robin"] = {Normal = 1},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
