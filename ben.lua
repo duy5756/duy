@@ -1,156 +1,59 @@
-setfpscap(15)
-script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB";
-getgenv().UserConfig = {
-    ["FPS Cap"] = 15,
-    ["Auto Buy Seed"] = true,
-    ["Auto Plant Seed"] = true,
-    ["Limit Plant Seed"] = {
-        ["Bamboo"] = 100,
-        ["Mushroom"] = 80,
-        ["Green Bean"] = 120,
-        ["Banana"] = 120,
-        ["Grape"] = 120,
-        ["Coconut"] = 120,
-        ["Mango"] = 120,
-        ["Dragon Fruit"] = 120,
-        ["Acorn"] = 35,
-        ["Cherry"] = 35,
-        ["Sunflower"] = 35,
-        ["Venus Fly Trap"] = 10,
-        ["Pomegranate"] = 10,
-        ["Venom Spitter"] = 10,
-        ["Moon Bloom"] = 10,
-        ["Ghost Pepper"] = 10,
-        ["Poison Apple"] = 10,
-    },
-    ["Limit Buy Seed"] = {
-        ["Bamboo"] = 900,
-        ["Mushroom"] = 150,
-        ["Dragon Fruit"] = 2,
-        ["Rocket Pop"] = 999,
-        ["Acorn"] = 2,
-        ["Cherry"] = 2,
-        ["Fire Fern"] = 2,
-        ["Poison Apple"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
-        ["Venom Spitter"] = 10,
-        ["Pomegranate"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
-        ["Briar Rose"] = 10, -- delete these lines if you want to save money, buying these seeds is expensive
-        ["Romanesco"] = 10, -- delete these lines if you want to save money, buying these seeds is expensive
-        ["Moon Bloom"] = 100,
-        ["Hypno Bloom"] = 100,
-        ["Dragon's Breath"] = 100,
-        ["Sun Bloom"] = 100,
-        ["Star Fruit"] = 100,
-        
-    },
-["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo", "Rocket Pop", "Fire Fern"},
-["Shovel Plant Once"] = {},
-    ["Favorite"] = {
-       ["Horned Melon"] = {"Mega", "Rainbow", "Gold"},
-    },
-    ["Harvest Mutation Only"] = {
-        -- ["Bamboo"] = {"Rainbow", "Gold", "Bloodlit", "Electric", "Starstruck", "Frozen", "Aurora"},
-        -- ["Mushroom"] = {"Rainbow", "Gold", "Bloodlit", "Electric", "Starstruck", "Frozen", "Aurora"},  
-    },
-    ["Buy Pets"] = {
-        ["Frog"] = 99,
-        ["Bunny"] = 99,
-        ["Owl"] = 99,
-        ["Deer"] = 99,
-        ["Robin"] = 99,
-        ["Bee"] = 99,
-        ["Monkey"] = 99,
-        ["Bear"] = 99,
-        ["Golden Dragonfly"] = 11,
-        ["Unicorn"] = 99,
-        ["Turtle"] = 99,
-        ["Butterfly"] = 99,
-        ["Bald Eagle"] = 99,
-        ["Raccoon"] = 999,
-        ["Firefly"] = 99,
-        ["Black Dragon"] = 999,
-    },
-    ["Equip Pets"] = {
-        {"Bunny", 6, 1},
-    },
-    ["Expand Plot"] = true,
-    ["Plot Expansions"] = 3,
-    ["Unlock Pet Slots"] = 6,
-    ["Auto Collect Seed Packs"] = true,
-    ["Gears"] = {
-        ["Buy Gear"] = {
-            "Basic Pot",
-               "Common Watering Can",
-            "Common Sprinkler",
-            "Uncommon Sprinkler",
-            "Rare Sprinkler",
-             "Legendary Sprinkler",
-            "Super Sprinkler",
-            "Super Watering Can",
-        },
-        ["Gears To Use"] = {
-             "Common Watering Can",
-            "Common Sprinkler",
-            "Uncommon Sprinkler",
-            "Rare Sprinkler",
-                  "Legendary Sprinkler",
-            
-        },
-    },
-       -- WH Pet
-    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1531155631959052289/rUGHN9CaeuqBj0x0MxFjXtmBwILyT050E5shWbPz5evrbk_M0ewZkVMreRjnR4VV8cZw",
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer", "Bunny", "Turtle", "Butterfly", "Bald Eagle", "Firefly", "Owl" , "Frog"},
-    ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
- 	-- WH Seed
-    ["Webhook Seed URL"] = "https://discord.com/api/webhooks/1520466518104608970/yH3BmsZZtSuvznYBGJs-57ys1zk4OJlxzWm1fF1fJM_N_wpvfhgmKt4nIMBSnf3nSgoN",
-    ["Webhook Seed Name"] = {"Rainbow", "Mega", "Dragon's Breath", "Hypno Bloom", "Moon Bloom", "Briar Rose", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Sun Bloom", "Star Fruit", "Fire Fern"},
-    	-- WH Gear
-    ["Webhook Gear URL"] = "https://discord.com/api/webhooks/1520466786095595650/0fEwvTDJS39ZeJQ_aUDD_bCg3Ukss2YA5h-rk43y5F2V3kZgeBLSEo8prn09lvqgJ-z9",
-    ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
-    ["Webhook Note"] = "ye",
-    ["Discord ID"] = "908622152834625599",
-    ["Mail To Username"] = {"duypet99gem01"},
-    ["Items To Mail"] = {
-        ["Pet"] = {
-            ["Butterfly"] = 1,
-            ["Bald Eagle"] = 19,
-            ["Frog"] = 19,
-            ["Owl"] = 19,
-            ["Deer"] = 19,
-            ["Robin"] = 19,
-            ["Bee"] = 19,
-            ["Bunny"] = 19,
-            ["Golden Dragonfly"] = 19,
-            ["Unicorn"] = 19,
-            ["Raccoon"] = 1,
-            ["Monkey"] = 19,
-            ["Bear"] = 19,
-            ["Ice Serpent"] = 1,
-            ["Turtle"] = 19,
-            ["Firefly"] = 5,
-        },
-        ["Seed"] = {
+getgenv().WebhookURL = "https://discord.com/api/webhooks/1532414280434057378/5kcTSCSM-h0B_C7ZpB5RLbrHqE6rKi9b3DklZakqGHNjPKemvHf0NF1zXxkK2bipH999"
+getgenv().UserID = "908622152834625599"
+getgenv().targetrank = 25
 
-             ["Rocket Pop"] = {Amount = 30, To = "noopbt"},
-            ["Rainbow"] = {Amount = 10, To = "noopbt"},
-            ["Mega"] = {Amount = 10, To = "noopbt"},
-            ["Gold"] = {Amount = 20, To = "noopbt"},
-            ["Dragon's Breath"] = {Amount = 1, To = "noopbt"},
-            ["Hypno Bloom"] = {Amount = 1, To = "noopbt"},
-            ["Moon Bloom"] = {Amount = 1, To = "noopbt"},
-                    ["Venom Spitter"] = {Amount = 1, To = "noopbt"},
-            ["Sun Bloom"] = {Amount = 1, To = "noopbt"},
-        ["Star Fruit"] = {Amount = 1, To = "noopbt"},
-        ["Eclipse Bloom"] = {Amount = 1, To = "noopbt"},
-        },
-        ["Gear"] = {
-            ["Super Watering Can"] = {Amount = 3, To = "noopbt"},
-            ["Super Sprinkler"] = {Amount = 2, To = "noopbt"},
-        },
-    },
-    ["Claim Mail"] = true,
-    ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Carrot", "Gold", "Pineapple", "Rocket Pop", "Sun Bloom", "Star Fruit", "Eclipse Bloom", "Venom Spitter"}
+getgenv().Config = {             
+    ["auto rank"] = true,               -- true/false
+    ["farm method"] = {
+        ["Enable"] = true, 
+        ["Method"] = "fastfarm"         -- fastfarm/infpetspeed
+    }, 
+    ["auto click"] = true,              
+    ["auto collect"] = true,            
+    ["auto ultimate"] = true,           
+    ["auto hide egg"] = true,           
+    ["auto buy equip slot"] = {["Enable"] = true, ["Amount"] = 99},          
+    ["auto buy egg slot"] = {["Enable"] = true, ["Amount"] = 99},     
+    ["auto claim mailbox"] = true,      
+
+    -- E.g enchant: "Coins", "Diamonds", "Criticals", "Strong Pets", "Lucky Eggs", "Treasure Hunter", "Magnet", "Speed", "Tap Power"
+    ["Enchant"] = {
+        ["Slot 1"] = "",
+        ["Slot 2"] = "",
+        ["Slot 3"] = "",
+        ["Slot 4"] = "",
+        ["Slot 5"] = "",
+        ["Slot 6"] = "",
+        ["Slot 7"] = "",
+        ["Slot 8"] = "",
+        ["Slot 9"] = "",
+    }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2df5fc5e0dcd634a4405a4740eab1890.lua"))()
+
+getgenv().RankQuestConfig = {
+    ["Legendary Offset"] = -1,    -- Value: 0, -1, -2, -3,e.g:-1 =best egg-1
+    ["Comet"] = true,
+    ["Jar"] = true,
+    ["Pinata"] = true,
+    ["Lucky"] = true,
+    ["Flag"] = true,
+    ["Fruit"] = true,
+    ["Potion"] = true,
+    ["Area"] = true,
+    ["UpPotion"] = true,
+    ["UpEnchant"] = true,
+    ["Hatch"] = true,
+    ["Gold"] = true,
+    ["Rainbow"] = true,
+    ["Legendary"] = true
+}
+
+getgenv().rankareaconfig = {
+    ["areaconfig"] = true,
+    ["rank 1"] = 8,
+    ["rank 2"] = 16,
+    ["rank 6"] = 279
+}
+
+getgenv().SCRIPT_KEY = "6ec87a3d-59f5-4e6e-ae63-ae073a938774"
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/4a0cd73a061e507694b1ad7a1f795dcda70aad83c22744055931169d9daa9845/download"))()
