@@ -2,7 +2,7 @@
 -- discord.gg/duckhub
 if not game:IsLoaded() then game.Loaded:Wait() end
 script_key = "wrmOYOaHkOxINXFqhAnoFhxjBxMLUukK";
-setfpscap(10)
+setfpscap(15)
 -- [ USER CONFIGURATION ]
 getgenv().UserConfig = {
     -- Auto Hop
