@@ -127,8 +127,9 @@ getgenv().UserConfig = {
             ["Bear"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
             ["Ice Serpent"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
             ["Turtle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Firefly"] = {Normal = 1, To = "trimiozz"},
             ["Firefly"] = { Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
+            ["Firefly"] = {Normal = 1, To = "trimiozz"},
+          
         },
         ["Seed"] = {
             ["Rocket Pop"] = {Amount = 30, To = "noopbt"},
