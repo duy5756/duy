@@ -39,7 +39,7 @@ getgenv().UserConfig = {
 
     -- Auto Unbox Settings
     ["Auto Unbox"] = true,
-    ["Selected Box"] = {"Summer2026Box", "MysteryBox2"},
+    ["Selected Box"] = {"Summer2026Box", "GunBox1"},
     ["Currency Type"] = "Shells",
     ["Min Balance Keep"] = 1,
 
