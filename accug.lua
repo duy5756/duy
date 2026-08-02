@@ -93,14 +93,6 @@ getgenv().UserConfig = {
     ["Merge Eclipse Bloom"] = true, -- Tự động gộp hoa Eclipse Bloom
     ["Gears"] = {
         ["Buy Gear"] = {
-		--	["Trowel"] = 500,
-        --    ["Common Watering Can"] = 500,
-        --    ["Common Sprinkler"] = 500,
-        --    ["Uncommon Sprinkler"] = 100,
-        --    ["Rare Sprinkler"] = 100,
-            ["Legendary Sprinkler"] = 100, -- Mua vòi nước Huyền thoại
-            ["Super Sprinkler"] = 50, -- Mua vòi nước Siêu cấp
-            ["Super Watering Can"] = 500, -- Mua bình tưới Siêu cấp
 		   ["Syrup Watering Can"] = 500,
 		   ["Syrup Sprinkler"] = 500,
 			["Harp"] = 100, -- Mua đàn Harp
@@ -112,12 +104,8 @@ getgenv().UserConfig = {
 			["Super Magic Mail"] = 100,
         },
         ["Gears To Use"] = {
-            -- "Trowel", -- Sử dụng xẻng nhỏ
             "Syrup Sprinkler", -- Sử dụng bình tưới nước thường
             "Syrup Watering Can", -- Sử dụng vòi nước thường
-            "Uncommon Sprinkler", -- Sử dụng vòi nước ít phổ biến
-            "Rare Sprinkler", -- Sử dụng vòi nước hiếm
-         --   "Legendary Sprinkler", -- Sử dụng vòi nước huyền thoại
         },
     },
 	-- [ THÔNG BÁO DISCORD - WEBHOOK ]
