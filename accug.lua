@@ -121,15 +121,28 @@ getgenv().UserConfig = {
     ["Webhook Note"] = "ngu", -- Ghi chú tên của bạn trên Webhook
     ["Discord ID"] = "908622152834625599", -- ID Discord của bạn để tag
 	
-	-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {}, -- Tên tài khoản chính nhận đồ
+		-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
+    ["Mail To Username"] = {"noopbt"}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
 		["Pet"] = {
+        ["Dog"] = 1,
+        ["Hedgehog"] = 1,
+        ["Turkey"] = 1,
+        ["Squirrel"] = 1,
+        ["Swan"] = 1,
+        ["Jandel Monkey"] = 1,
+        ["Firefly"] = 1,
+        ["Fox"] = 1,
+        ["Wolf"] = 1,
+        ["Shadow Dragon"] = 1,
            
         },
         ["Seed"] = {
         },
         ["Gear"] = {
+			["Super Syrup Sprinkler"] = 1,
+            ["Super Syrup Watering Can"] = 1,
+            ["Super Magic Mail"] = 1,
 
         },
 		["Other"] = {
