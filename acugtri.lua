@@ -149,37 +149,25 @@ getgenv().UserConfig = {
     },
     ["Claim Mail"] = true, -- Tự động nhận thư gửi đến
 	
-	-- [ CẤU HÌNH NÂNG CAO ]
+		-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {}, -- Danh sách hạt giống bị cấm
+    ["Blacklist Seed"] = {"Amber Cranberry"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
-        -- Epic
-        ["Banana"] = {"Rainbow", "Gold", "Mega"},
-        ["Coconut"] = {"Rainbow", "Gold", "Mega"},
-        ["Glow Mushroom"] = {"Rainbow", "Gold", "Mega"},
-        ["Grape"] = {"Rainbow", "Gold", "Mega"},
-        ["Green Bean"] = {"Rainbow", "Gold", "Mega"},
-        ["Mango"] = {"Rainbow", "Gold", "Mega"},
-        -- Legendary
-        ["Acorn"] = {"Rainbow", "Gold", "Mega"},
-        ["Cherry"] = {"Rainbow", "Gold", "Mega"},
-        ["Dragon Fruit"] = {"Rainbow", "Gold", "Mega"},
-        ["Fire Fern"] = {"Rainbow", "Gold", "Mega"},
-        ["Poison Ivy"] = {"Rainbow", "Gold", "Mega"},
-        ["Sunflower"] = {"Rainbow", "Gold", "Mega"},
-        -- Mythic
-        "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap",
-        -- Super
-        "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Sun Bloom", "Star Fruit",
-        -- Secret
-        "Eclipse Bloom",
+	"Maple Venus Fly Trap", 
+	"Maple Pomegranate",
+	"Maple Poison Apple",
+	"Maple Venom Spitter",
+	"Conifer Cone",
+	"Atlantic Giant Pumpkin",
+	"Amber Cranberry"
     },
     ["Shovel Plant Once"] = { -- Cấu hình xúc cây 1 lần
         
     },
     ["World"] = "Fall Harvest" -- Thế giới game (Mặc định: Fall Harvest)
 }
+
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/081b6484489dff091ae98ca65051f94b.lua"))()
