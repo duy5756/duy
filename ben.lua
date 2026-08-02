@@ -167,7 +167,7 @@ getgenv().UserConfig = {
     ["Shovel Plant Once"] = { -- Cấu hình xúc cây 1 lần
         
     },
-    ["World"] = "Fall Harvest" -- Thế giới game (Mặc định: Fall Harvest)
+    ["World"] = "Fall Harvest" -- Thế giới game (Mặc định: Fall Harvest
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/081b6484489dff091ae98ca65051f94b.lua"))()
