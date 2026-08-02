@@ -215,7 +215,7 @@ getgenv().UserConfig = {
         -- Super
         "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Sun Bloom", "Star Fruit",
         -- Secret
-        "Eclipse Bloom"
+        "Eclipse Bloom",
     },
     ["Shovel Plant Once"] = { -- Cấu hình xúc cây 1 lần
         
