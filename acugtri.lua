@@ -121,15 +121,15 @@ getgenv().UserConfig = {
         },
     },
 	-- [ THÔNG BÁO DISCORD - WEBHOOK ]
-    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Pet
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer"}, -- Tên các loại pet cần gửi thông báo
+    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1524746579502829690/B9P39iFTqtFJlGGF6Hv8Ipvtlk2yvRc8uVrsZ1jgpstXiwTdnzhVxkPtMPgaYqBeSaNN", -- Link Webhook Discord nhận thông báo Pet
+    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Swan", "Fox", "Wolf", "Shadow Dragon"}, -- Tên các loại pet cần gửi thông báo
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"}, -- Độ hiếm của pet cần gửi thông báo
 	
 	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Hạt giống
-    ["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Dragon's Breath", "Hypno Bloom", "Moon Bloom", "Briar Rose", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"}, -- Tên các loại hạt giống cần thông báo
+    ["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Maple Pomegranate", "Maple Venus Fly Trap", "Maple Poison Apple", "Maple Venom Spitter", "Conifer Cone", "Atlantic Giant Pumpkin", "Amber Cranberry"}, -- Tên các loại hạt giống cần thông báo
 	
-	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Dụng cụ
-	["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can", "Legendary Sprinkler"}, -- Tên các dụng cụ cần thông báo
+	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1524746579502829690/B9P39iFTqtFJlGGF6Hv8Ipvtlk2yvRc8uVrsZ1jgpstXiwTdnzhVxkPtMPgaYqBeSaNN", -- Link Webhook Discord nhận thông báo Dụng cụ
+	["Webhook Gear Name"] = {"Super Syrup Sprinkler", "Super Syrup Watering Can", "Super Magic Mail"}, -- Tên các dụng cụ cần thông báo
     ["Webhook Note"] = "ngu", -- Ghi chú tên của bạn trên Webhook
     ["Discord ID"] = "1269564008915144705", -- ID Discord của bạn để tag
 	
