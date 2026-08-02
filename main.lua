@@ -1,4 +1,3 @@
-
 script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB"; -- Điền Key script của bạn vào đây
 
 getgenv().UserConfig = {
@@ -15,7 +14,35 @@ getgenv().UserConfig = {
     ["Limit Buy Seed"] = {
         -- Giới hạn số lượng từng loại hạt giống được phép mua tự động trong cửa hang
 	-- Xoá bớt dòng tên hạt không cần nếu muốn tiết kiệm sheckles
-       
+        ["Carrot"] = 20, 
+        ["Strawberry"] = 20, 
+        ["Blueberry"] = 20,
+        ["Tulip"] = 300,
+        ["Tomato"] = 20,
+        ["Apple"] = 20,
+        ["Bamboo"] = 300,
+        ["Corn"] = 20,
+        ["Cactus"] = 20,
+        ["Pineapple"] = 20,
+        ["Mushroom"] = 300,
+        ["Banana"] = 20,
+        ["Grape"] = 20,
+        ["Coconut"] = 20,
+        ["Mango"] = 20,
+        ["Dragon Fruit"] = 20,
+        ["Acorn"] = 20,
+        ["Cherry"] = 20,
+        ["Sunflower"] = 20,        
+        ["Venus Fly Trap"] = 10,
+        ["Pomegranate"] = 10,
+        ["Poison Apple"] = 10,
+		["Venom Spitter"] = 10,
+        ["Moon Bloom"] = 1000,
+		["Hypno Bloom"] = 1000,
+        ["Dragon's Breath"] = 1000,
+		["Sun Bloom"] = {["Limit"] = 1000, ["Min Sheckles"] = "2b"},
+		["Star Fruit"] = {["Limit"] = 1000, ["Min Sheckles"] = "2b"},
+		["Eclipse Bloom"] = 1000,
 		["Potato"] = 300,
 		["Honeysuckle"] = 20,
 		["Romanesco"] = 20,
@@ -164,7 +191,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {}, -- Danh sách hạt giống bị cấm
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
         -- Epic
