@@ -10,11 +10,6 @@ getgenv().UserConfig = {
         ["Carrot"] = 50, 
             },
     ["Limit Buy Seed"] = {
-        ["Maple Carrot"] = 20,
-		["Maple Strawberry"] = 20,
-		["Maple Blueberry"] = 20,
-		["Maple Tulip"] = 20,
-		["Maple Tomato"] = 20,
 		["Maple Apple"] = 20,
 		["Maple Bamboo"] = 200,
 		["Maple Corn"] = 20,
@@ -59,7 +54,7 @@ getgenv().UserConfig = {
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Butterfly"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Swan"] = 99,
+        ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
         
         -- Mythic
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
