@@ -1,156 +1,224 @@
-setfpscap(10)
-script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB";
+script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB"; -- Điền Key script của bạn vào đây
+
 getgenv().UserConfig = {
-    ["FPS Cap"] = 10,
-    ["Auto Buy Seed"] = true,
-    ["Auto Plant Seed"] = true,
+	["Auto Double Or Nothing"] = false, -- Tự động bật tính năng Double Or Nothing (Cược nhân đôi)
+    ["Double Or Nothing Target Wins"] = 1, -- Số trận thắng mục tiêu khi chơi Double Or Nothing
+    ["FPS Cap"] = 10, -- Giới hạn FPS xuống 5 để treo máy mượt, tiết kiệm tối đa CPU/GPU
+    ["Auto Buy Seed"] = true, -- Tự động mua hạt giống theo danh sách cấu hình
+    ["Auto Plant Seed"] = true, -- Tự động trồng hạt giống xuống đất
     ["Limit Plant Seed"] = {
-        ["Bamboo"] = 100,
-        ["Mushroom"] = 80,
-        ["Green Bean"] = 120,
-        ["Banana"] = 120,
-        ["Grape"] = 120,
-        ["Coconut"] = 120,
-        ["Mango"] = 120,
-        ["Dragon Fruit"] = 120,
-        ["Acorn"] = 35,
-        ["Cherry"] = 35,
-        ["Sunflower"] = 35,
+        -- Giới hạn số lượng từng loại hạt giống được phép trồng tự động trên đất
+	-- không dùng tới nên đừng qtam chỗ này
+        ["Carrot"] = 50, 
+            },
+    ["Limit Buy Seed"] = {
+        -- Giới hạn số lượng từng loại hạt giống được phép mua tự động trong cửa hang
+	-- Xoá bớt dòng tên hạt không cần nếu muốn tiết kiệm sheckles
+        ["Carrot"] = 20, 
+        ["Strawberry"] = 20, 
+        ["Blueberry"] = 20,
+        ["Tulip"] = 300,
+        ["Tomato"] = 20,
+        ["Apple"] = 20,
+        ["Bamboo"] = 300,
+        ["Corn"] = 20,
+        ["Cactus"] = 20,
+        ["Pineapple"] = 20,
+        ["Mushroom"] = 300,
+        ["Banana"] = 20,
+        ["Grape"] = 20,
+        ["Coconut"] = 20,
+        ["Mango"] = 20,
+        ["Dragon Fruit"] = 20,
+        ["Acorn"] = 20,
+        ["Cherry"] = 20,
+        ["Sunflower"] = 20,        
         ["Venus Fly Trap"] = 10,
         ["Pomegranate"] = 10,
-        ["Venom Spitter"] = 10,
-        ["Moon Bloom"] = 10,
-        ["Ghost Pepper"] = 10,
         ["Poison Apple"] = 10,
+		["Venom Spitter"] = 10,
+        ["Moon Bloom"] = 1000,
+		["Hypno Bloom"] = 1000,
+        ["Dragon's Breath"] = 1000,
+		["Sun Bloom"] = {["Limit"] = 1000, ["Min Sheckles"] = "2b"},
+		["Star Fruit"] = {["Limit"] = 1000, ["Min Sheckles"] = "2b"},
+		["Eclipse Bloom"] = 1000,
+		["Potato"] = 300,
+		["Honeysuckle"] = 20,
+		["Romanesco"] = 20,
+		["Plum"] = 20,
+		["Cinnamon Stick"] = 20,
+		["Atlantic Giant Pumpkin"] = 10,
+		["Amber Cranberry"] = 10,
+		["Maple Carrot"] = 20,
+		["Maple Strawberry"] = 20,
+		["Maple Blueberry"] = 20,
+		["Maple Tulip"] = 20,
+		["Maple Tomato"] = 20,
+		["Maple Apple"] = 20,
+		["Maple Bamboo"] = 20,
+		["Maple Corn"] = 20,
+		["Maple Cactus"] = 20,
+		["Maple Pineapple"] = 20,
+		["Maple Mushroom"] = 20,
+		["Maple Green Bean"] = 20,
+		["Maple Venus Fly Trap"] = 10,
+		["Maple Pomegranate"] = 10,
+		["Maple Poison Apple"] = 10,
+		["Maple Venom Spitter"] = 10,
+		["Maple Sunflower"] = 20,
+		["Maple Cherry"] = 20,
+		["Maple Acorn"] = 20,
+		["Maple Dragon Fruit"] = 20,
+		["Maple Mango"] = 20,
+		["Maple Grape"] = 20,
+		["Maple Banana"] = 20,
+		["Maple Coconut"] = 20,
     },
-    ["Limit Buy Seed"] = {
-        ["Bamboo"] = 900,
-        ["Mushroom"] = 150,
-        ["Coconut"] = 2,
-        ["Mango"] = 2, 
-        ["Dragon Fruit"] = 2,
-        ["Rocket Pop"] = 99,
-        ["Acorn"] = 2,
-        ["Cherry"] = 2,
-        ["Fire Fern"] = 2,
-        ["Venom Spitter"] = 10,
-        ["Pomegranate"] = 2, -- cảm thấy mất tiền thì xoá mấy dòng này vì mua seed tốn tiền lắm
-         ["Moon Bloom"] = 100,
-        ["Hypno Bloom"] = 100,
-        ["Dragon's Breath"] = 100,
-        ["Sun Bloom"] = 100,
-        ["Star Fruit"] = 100,
-        
-    },
-["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Mushroom", "Bamboo"},
-["Shovel Plant Once"] = {},
-    ["Favorite"] = {
-       ["Horned Melon"] = {"Mega", "Rainbow", "Gold"},
-    },
-    ["Harvest Mutation Only"] = {
-        -- ["Bamboo"] = {"Rainbow", "Gold", "Bloodlit", "Electric", "Starstruck", "Frozen", "Aurora"},
-        -- ["Mushroom"] = {"Rainbow", "Gold", "Bloodlit", "Electric", "Starstruck", "Frozen", "Aurora"},  
-    },
+	["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
+    ["Favorite"] = {}, -- Danh sách mục yêu thích
     ["Buy Pets"] = {
-        ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
-        ["Bunny"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
-        ["Owl"] = {Huge = 99, Rainbow = 99},
-        ["Deer"] = {Big = 99, Huge = 99, Rainbow = 99},
+        -- Cấu hình tự động mua các loại pet (Thêm dấu `--` ở đầu để tạm tắt mua pet đó)
+        -- Common
+        ["Frog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Bunny"] = {Big = 99, Huge = 99, Rainbow = 99},
+        
+        -- Uncommon
+        ["Owl"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Dog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        
+        -- Rare
+        ["Deer"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
+        ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Turkey"] = {Big = 99, Huge = 99, Rainbow = 99},
+        
+        -- Legendary
         ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Butterfly"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Swan"] = 99,
+        
+        -- Mythic
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Jandel Monkey"] = 99 ,
         ["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Unicorn"] =  {Big = 99, Huge = 99, Rainbow = 99},
-        ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Butterfly"] = 999,
-         ["Firefly"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Unicorn"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bald Eagle"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Firefly"] = 999,
+        ["Fox"] = 99,
+        ["Wolf"] = 99,
+
+        -- Super
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
+        ["Ice Serpent"] = 999,
+        ["Shadow Dragon"] = 999,
     },
-    ["Equip Pets"] = {
-        {"Bunny", 6, 1},
-    },
-    ["Expand Plot"] = true,
-    ["Plot Expansions"] = 3,
-    ["Unlock Pet Slots"] = 6,
-    ["Auto Collect Seed Packs"] = true,
+	["Equip Pets"] = {
+		{"Deer", 6, 1}, -- Tự động trang bị pet Deer
+	},
+	["Sell Pets"] = {
+        -- Cấu hình tự động bán pet (Thêm dấu `--` ở đầu để tạm tắt)
+		-- ["Frog"] = {Normal = 6},
+		-- ["Bunny"] = {Normal = 6}
+	},
+    ["Expand Plot"] = true, -- Tự động mua mở rộng ô đất trồng
+    ["Plot Expansions"] = 3, -- Số lần mua mở rộng ô đất mục tiêu
+    ["Unlock Pet Slots"] = 6, -- Số ô chứa pet muốn mở khóa
+    ["Auto Collect Seed Packs"] = true, -- Tự động nhặt các túi hạt giống rơi trên mặt đất
+    ["Merge Eclipse Bloom"] = true, -- Tự động gộp hoa Eclipse Bloom
     ["Gears"] = {
         ["Buy Gear"] = {
-             "Basic Pot",
-            "Common Watering Can",
-            "Common Sprinkler",
-            "Uncommon Sprinkler",
-            "Rare Sprinkler",
-             "Legendary Sprinkler",
-            "Super Sprinkler",
-            "Super Watering Can",
+		--	["Trowel"] = 500,
+        --    ["Common Watering Can"] = 500,
+        --    ["Common Sprinkler"] = 500,
+        --    ["Uncommon Sprinkler"] = 100,
+        --    ["Rare Sprinkler"] = 100,
+            ["Legendary Sprinkler"] = 100, -- Mua vòi nước Huyền thoại
+            ["Super Sprinkler"] = 50, -- Mua vòi nước Siêu cấp
+            ["Super Watering Can"] = 500, -- Mua bình tưới Siêu cấp
+		--	["Syrup Watering Can"] = 500,
+		--	["Syrup Sprinkler"] = 500,
+			["Harp"] = 100, -- Mua đàn Harp
+			["Bull Horn"] = 100, -- Mua kèn Bull Horn
+			["Super Syrup Sprinkler"] = 100, -- Mua vòi si-rô siêu cấp
+			["Super Syrup Watering Can"] = 100, -- Mua bình tưới si-rô siêu cấp
+		--	["Rare Magic Mail"] = 100,
+		--	["Legendary Magic Mail"] = 100,
+			["Super Magic Mail"] = 100,
         },
         ["Gears To Use"] = {
-             "Common Watering Can",
-            "Common Sprinkler",
-            "Uncommon Sprinkler",
-            "Rare Sprinkler",
-               "Legendary Sprinkler",
+            -- "Trowel", -- Sử dụng xẻng nhỏ
+            "Common Watering Can", -- Sử dụng bình tưới nước thường
+            "Common Sprinkler", -- Sử dụng vòi nước thường
+            "Uncommon Sprinkler", -- Sử dụng vòi nước ít phổ biến
+            "Rare Sprinkler", -- Sử dụng vòi nước hiếm
+         --   "Legendary Sprinkler", -- Sử dụng vòi nước huyền thoại
         },
     },
-       -- WH Pet
-    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1524746579502829690/B9P39iFTqtFJlGGF6Hv8Ipvtlk2yvRc8uVrsZ1jgpstXiwTdnzhVxkPtMPgaYqBeSaNN",
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer", "Bunny", "Turtle", "Butterfly", "Bald Eagle", "Firefly"},
-    ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
- 	-- WH Seed
-    ["Webhook Seed URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB",
-    ["Webhook Seed Name"] = {"Rainbow", "Mega", "Dragon's Breath", "Hypno Bloom", "Moon Bloom", "Briar Rose", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Sun Bloom", "Star Fruit"},
-    	-- WH Gear
-    ["Webhook Gear URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB",
-    ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
-    ["Webhook Note"] = "ye",
-    ["Discord ID"] = "1269564008915144705",
-    ["Mail To Username"] = {"trimiozz"},
+	-- [ THÔNG BÁO DISCORD - WEBHOOK ]
+    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Pet
+    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer"}, -- Tên các loại pet cần gửi thông báo
+    ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"}, -- Độ hiếm của pet cần gửi thông báo
+	
+	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Hạt giống
+    ["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Dragon's Breath", "Hypno Bloom", "Moon Bloom", "Briar Rose", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"}, -- Tên các loại hạt giống cần thông báo
+	
+	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Dụng cụ
+	["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can", "Legendary Sprinkler"}, -- Tên các dụng cụ cần thông báo
+    ["Webhook Note"] = "ngu", -- Ghi chú tên của bạn trên Webhook
+    ["Discord ID"] = "1269564008915144705", -- ID Discord của bạn để tag
+	
+	-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
+    ["Mail To Username"] = {}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
-        ["Pet"] = {
-           ["Butterfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Bald Eagle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Frog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Owl"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Deer"] = {Big = 1, Huge = 1, Rainbow = 1},
-            ["Robin"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Bee"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Bunny"] = {Big = 1, Huge = 1, Rainbow = 1},
-            ["Golden Dragonfly"] = { Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Golden Dragonfly"] = {Normal = 1, To = "trimiozz"},
-            ["Unicorn"] = {Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Unicorn"] = {Normal = 1, To = "trimiozz"},
-            ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Bear"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Ice Serpent"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Turtle"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Firefly"] = { Big = 1, Huge = 1, Rainbow = 1, To = "noopbt"},
-            ["Firefly"] = {Normal = 1, To = "trimiozz"},
-          
+		["Pet"] = {
+           
         },
         ["Seed"] = {
-            ["Rocket Pop"] = {Amount = 30, To = "noopbt"},
-            ["Rainbow"] = 2,
-            ["Mega"] = 2,
-            ["Gold"] = 5,
-            ["Dragon's Breath"] = 1,
-            ["Hypno Bloom"] = 1,
-            ["Moon Bloom"] = 1,
-             ["Sun Bloom"] = 1,
-        ["Star Fruit"] = 1,
-        ["Eclipse Bloom"] = 1, 
         },
         ["Gear"] = {
-            ["Super Watering Can"] = 1,
-            ["Super Sprinkler"] = 1,
+
+        },
+		["Other"] = {
         },
     },
-    ["Claim Mail"] = true,
-    ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Mega", "Rainbow", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Carrot", "Gold", "Pineapple", "Rocket Pop",  "Sun Bloom", "Star Fruit", "Eclipse Bloom"}
+    ["Claim Mail"] = true, -- Tự động nhận thư gửi đến
+	
+	-- [ CẤU HÌNH NÂNG CAO ]
+    ["Auto Plant"] = true, -- Bật tự động trồng cây
+    ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
+    ["Blacklist Seed"] = {}, -- Danh sách hạt giống bị cấm
+    ["Blacklist Shovel"] = {
+        -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
+        -- Epic
+        ["Banana"] = {"Rainbow", "Gold", "Mega"},
+        ["Coconut"] = {"Rainbow", "Gold", "Mega"},
+        ["Glow Mushroom"] = {"Rainbow", "Gold", "Mega"},
+        ["Grape"] = {"Rainbow", "Gold", "Mega"},
+        ["Green Bean"] = {"Rainbow", "Gold", "Mega"},
+        ["Mango"] = {"Rainbow", "Gold", "Mega"},
+        -- Legendary
+        ["Acorn"] = {"Rainbow", "Gold", "Mega"},
+        ["Cherry"] = {"Rainbow", "Gold", "Mega"},
+        ["Dragon Fruit"] = {"Rainbow", "Gold", "Mega"},
+        ["Fire Fern"] = {"Rainbow", "Gold", "Mega"},
+        ["Poison Ivy"] = {"Rainbow", "Gold", "Mega"},
+        ["Sunflower"] = {"Rainbow", "Gold", "Mega"},
+        -- Mythic
+        "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap",
+        -- Super
+        "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Sun Bloom", "Star Fruit",
+        -- Secret
+        "Eclipse Bloom",
+    },
+    ["Shovel Plant Once"] = { -- Cấu hình xúc cây 1 lần
+        
+    },
+    ["World"] = "Fall Harvest" -- Thế giới game (Mặc định: Fall Harvest)
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/979cba1a5b965fbc24d274454049b447.lua"))()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/081b6484489dff091ae98ca65051f94b.lua"))()
