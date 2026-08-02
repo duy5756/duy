@@ -3,64 +3,24 @@ script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB"; -- Điền Key script của b�
 getgenv().UserConfig = {
 	["Auto Double Or Nothing"] = false, -- Tự động bật tính năng Double Or Nothing (Cược nhân đôi)
     ["Double Or Nothing Target Wins"] = 1, -- Số trận thắng mục tiêu khi chơi Double Or Nothing
-    ["FPS Cap"] = 10, -- Giới hạn FPS xuống 5 để treo máy mượt, tiết kiệm tối đa CPU/GPU
+    ["FPS Cap"] = 15, -- Giới hạn FPS xuống 5 để treo máy mượt, tiết kiệm tối đa CPU/GPU
     ["Auto Buy Seed"] = true, -- Tự động mua hạt giống theo danh sách cấu hình
     ["Auto Plant Seed"] = true, -- Tự động trồng hạt giống xuống đất
     ["Limit Plant Seed"] = {
-        -- Giới hạn số lượng từng loại hạt giống được phép trồng tự động trên đất
-	-- không dùng tới nên đừng qtam chỗ này
         ["Carrot"] = 50, 
             },
     ["Limit Buy Seed"] = {
-        -- Giới hạn số lượng từng loại hạt giống được phép mua tự động trong cửa hang
-	-- Xoá bớt dòng tên hạt không cần nếu muốn tiết kiệm sheckles
-        ["Carrot"] = 20, 
-        ["Strawberry"] = 20, 
-        ["Blueberry"] = 20,
-        ["Tulip"] = 300,
-        ["Tomato"] = 20,
-        ["Apple"] = 20,
-        ["Bamboo"] = 300,
-        ["Corn"] = 20,
-        ["Cactus"] = 20,
-        ["Pineapple"] = 20,
-        ["Mushroom"] = 300,
-        ["Banana"] = 20,
-        ["Grape"] = 20,
-        ["Coconut"] = 20,
-        ["Mango"] = 20,
-        ["Dragon Fruit"] = 20,
-        ["Acorn"] = 20,
-        ["Cherry"] = 20,
-        ["Sunflower"] = 20,        
-        ["Venus Fly Trap"] = 10,
-        ["Pomegranate"] = 10,
-        ["Poison Apple"] = 10,
-		["Venom Spitter"] = 10,
-        ["Moon Bloom"] = 1000,
-		["Hypno Bloom"] = 1000,
-        ["Dragon's Breath"] = 1000,
-		["Sun Bloom"] = {["Limit"] = 1000, ["Min Sheckles"] = "2b"},
-		["Star Fruit"] = {["Limit"] = 1000, ["Min Sheckles"] = "2b"},
-		["Eclipse Bloom"] = 1000,
-		["Potato"] = 300,
-		["Honeysuckle"] = 20,
-		["Romanesco"] = 20,
-		["Plum"] = 20,
-		["Cinnamon Stick"] = 20,
-		["Atlantic Giant Pumpkin"] = 10,
-		["Amber Cranberry"] = 10,
-		["Maple Carrot"] = 20,
+        ["Maple Carrot"] = 20,
 		["Maple Strawberry"] = 20,
 		["Maple Blueberry"] = 20,
 		["Maple Tulip"] = 20,
 		["Maple Tomato"] = 20,
 		["Maple Apple"] = 20,
-		["Maple Bamboo"] = 20,
+		["Maple Bamboo"] = 200,
 		["Maple Corn"] = 20,
 		["Maple Cactus"] = 20,
 		["Maple Pineapple"] = 20,
-		["Maple Mushroom"] = 20,
+		["Maple Mushroom"] = 200,
 		["Maple Green Bean"] = 20,
 		["Maple Venus Fly Trap"] = 10,
 		["Maple Pomegranate"] = 10,
@@ -74,12 +34,13 @@ getgenv().UserConfig = {
 		["Maple Grape"] = 20,
 		["Maple Banana"] = 20,
 		["Maple Coconut"] = 20,
+		["Conifer Cone"] = 20,
+		["Atlantic Giant Pumpkin"] = 10,
+		["Amber Cranberry"] = 10,
     },
 	["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
     ["Favorite"] = {}, -- Danh sách mục yêu thích
     ["Buy Pets"] = {
-        -- Cấu hình tự động mua các loại pet (Thêm dấu `--` ở đầu để tạm tắt mua pet đó)
-        -- Common
         ["Frog"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bunny"] = {Big = 99, Huge = 99, Rainbow = 99},
         
@@ -140,8 +101,8 @@ getgenv().UserConfig = {
             ["Legendary Sprinkler"] = 100, -- Mua vòi nước Huyền thoại
             ["Super Sprinkler"] = 50, -- Mua vòi nước Siêu cấp
             ["Super Watering Can"] = 500, -- Mua bình tưới Siêu cấp
-		--	["Syrup Watering Can"] = 500,
-		--	["Syrup Sprinkler"] = 500,
+		   ["Syrup Watering Can"] = 500,
+		   ["Syrup Sprinkler"] = 500,
 			["Harp"] = 100, -- Mua đàn Harp
 			["Bull Horn"] = 100, -- Mua kèn Bull Horn
 			["Super Syrup Sprinkler"] = 100, -- Mua vòi si-rô siêu cấp
@@ -152,8 +113,8 @@ getgenv().UserConfig = {
         },
         ["Gears To Use"] = {
             -- "Trowel", -- Sử dụng xẻng nhỏ
-            "Common Watering Can", -- Sử dụng bình tưới nước thường
-            "Common Sprinkler", -- Sử dụng vòi nước thường
+            "Syrup Sprinkler", -- Sử dụng bình tưới nước thường
+            "Syrup Watering Can", -- Sử dụng vòi nước thường
             "Uncommon Sprinkler", -- Sử dụng vòi nước ít phổ biến
             "Rare Sprinkler", -- Sử dụng vòi nước hiếm
          --   "Legendary Sprinkler", -- Sử dụng vòi nước huyền thoại
