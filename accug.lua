@@ -3,7 +3,7 @@ script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB"; -- Điền Key script của b�
 getgenv().UserConfig = {
 	["Auto Double Or Nothing"] = false, -- Tự động bật tính năng Double Or Nothing (Cược nhân đôi)
     ["Double Or Nothing Target Wins"] = 1, -- Số trận thắng mục tiêu khi chơi Double Or Nothing
-    ["FPS Cap"] = 15, -- Giới hạn FPS xuống 5 để treo máy mượt, tiết kiệm tối đa CPU/GPU
+    ["FPS Cap"] = 10, -- Giới hạn FPS xuống 5 để treo máy mượt, tiết kiệm tối đa CPU/GPU
     ["Auto Buy Seed"] = true, -- Tự động mua hạt giống theo danh sách cấu hình
     ["Auto Plant Seed"] = true, -- Tự động trồng hạt giống xuống đất
     ["Limit Plant Seed"] = {
@@ -59,7 +59,7 @@ getgenv().UserConfig = {
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Butterfly"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Swan"] = 99,
+        ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
         
         -- Mythic
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
