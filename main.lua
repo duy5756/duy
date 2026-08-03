@@ -102,7 +102,7 @@ getgenv().UserConfig = {
         ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Turkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
-        ["Swan"] = {Normal = 2, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Swan"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
