@@ -130,7 +130,7 @@ getgenv().UserConfig = {
     ["Discord ID"] = "1269564008915144705", -- ID Discord của bạn để tag
 	
 		-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {"noopbt"}, -- Tên tài khoản chính nhận đồ
+    ["Mail To Username"] = {"duypet99gem01"}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
 		["Pet"] = {
         ["Dog"] = 1,
