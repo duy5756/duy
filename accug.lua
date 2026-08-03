@@ -16,7 +16,7 @@ getgenv().UserConfig = {
 		["Maple Tulip"] = 20,
 		["Maple Tomato"] = 20,
 		["Maple Apple"] = 20,
-		["Maple Bamboo"] = 200,
+		["Maple Bamboo"] = 900,
 		["Maple Corn"] = 20,
 		["Maple Cactus"] = 20,
 		["Maple Pineapple"] = 20,
@@ -41,45 +41,28 @@ getgenv().UserConfig = {
 	["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
     ["Favorite"] = {}, -- Danh sách mục yêu thích
     ["Buy Pets"] = {
-        ["Frog"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bunny"] = {Big = 99, Huge = 99, Rainbow = 99},
+          -- Cấu hình tự động mua các loại pet (Thêm dấu `--` ở đầu để tạm tắt mua pet đó)
         
         -- Uncommon
-        ["Owl"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Dog"] = {Big = 99, Huge = 99, Rainbow = 99},
         
         -- Rare
-        ["Deer"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
-        ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Turkey"] = {Big = 99, Huge = 99, Rainbow = 99},
         
         -- Legendary
-        ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Butterfly"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Swan"] = 99,
         
         -- Mythic
-        ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Jandel Monkey"] = 99 ,
-        ["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Unicorn"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bald Eagle"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Firefly"] = 999,
-        ["Fox"] = 99,
-        ["Wolf"] = 99,
+        ["Fox"] = 999,
+        ["Wolf"] = 999,
 
         -- Super
-        ["Raccoon"] = 999,
-        ["Black Dragon"] = 999,
-        ["Ice Serpent"] = 999,
         ["Shadow Dragon"] = 999,
     },
 	["Equip Pets"] = {
-		{"Deer", 6, 1}, -- Tự động trang bị pet Deer
+		{"Swan", 6, 1}, 
 	},
 	["Sell Pets"] = {
         -- Cấu hình tự động bán pet (Thêm dấu `--` ở đầu để tạm tắt)
@@ -95,12 +78,8 @@ getgenv().UserConfig = {
         ["Buy Gear"] = {
 		   ["Syrup Watering Can"] = 500,
 		   ["Syrup Sprinkler"] = 500,
-			["Harp"] = 100, -- Mua đàn Harp
-			["Bull Horn"] = 100, -- Mua kèn Bull Horn
 			["Super Syrup Sprinkler"] = 100, -- Mua vòi si-rô siêu cấp
 			["Super Syrup Watering Can"] = 100, -- Mua bình tưới si-rô siêu cấp
-		--	["Rare Magic Mail"] = 100,
-		--	["Legendary Magic Mail"] = 100,
 			["Super Magic Mail"] = 100,
         },
         ["Gears To Use"] = {
@@ -125,25 +104,31 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"duypet99gem01"}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
 		["Pet"] = {
-        ["Dog"] = 1,
-        ["Hedgehog"] = 1,
-        ["Turkey"] = 1,
-        ["Squirrel"] = 1,
-        ["Swan"] = 1,
-        ["Jandel Monkey"] = 1,
-        ["Firefly"] = 1,
-        ["Fox"] = 1,
-        ["Wolf"] = 1,
-        ["Shadow Dragon"] = 1,
+        ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Turkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Swan"] = {Normal = 2, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
            
         },
         ["Seed"] = {
+		["Maple Bamboo"] = 300,
+		["Maple Venus Fly Trap"] = 1,
+		["Maple Pomegranate"] = 1,
+		["Maple Poison Apple"] = 1,
+		["Maple Venom Spitter"] = 1,
+		["Conifer Cone"] = 1,
+		["Atlantic Giant Pumpkin"] = 1,
         },
         ["Gear"] = {
-			["Super Syrup Sprinkler"] = 1,
-            ["Super Syrup Watering Can"] = 1,
-            ["Super Magic Mail"] = 1,
-
+			["Super Syrup Sprinkler"] = {Amount = 1, To = "noopbt"},
+            ["Super Syrup Watering Can"] = {Amount = 2, To = "noopbt"},
+            ["Super Magic Mail"] = {Amount = 1, To = "noopbt"},
         },
 		["Other"] = {
         },
@@ -153,7 +138,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Pomegranate" , "Maple Poison Apple" , "Maple Venom Spitter", "Maple Bamboo"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
