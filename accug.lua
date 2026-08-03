@@ -48,7 +48,7 @@ getgenv().UserConfig = {
         
         -- Rare
         ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Turkey"] = {{Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
+        ["Turkey"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
         
         -- Legendary
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
