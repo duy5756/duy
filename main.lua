@@ -48,11 +48,11 @@ getgenv().UserConfig = {
         
         -- Rare
         ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Turkey"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Turkey"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
         
         -- Legendary
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Swan"] = 99,
+        ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
         
         -- Mythic
         ["Fox"] = 999,
@@ -62,7 +62,7 @@ getgenv().UserConfig = {
         ["Shadow Dragon"] = 999,
     },
 	["Equip Pets"] = {
-		{"Swan", 6, 1}, 
+		{"Turkey", 6, 1}, 
 	},
 	["Sell Pets"] = {
         -- Cấu hình tự động bán pet (Thêm dấu `--` ở đầu để tạm tắt)
@@ -106,7 +106,7 @@ getgenv().UserConfig = {
 		["Pet"] = {
         ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
-        ["Turkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Turkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Swan"] = {Normal = 2, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
