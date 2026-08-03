@@ -3,30 +3,23 @@ script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB"; -- Điền Key script của b�
 getgenv().UserConfig = {
 	["Auto Double Or Nothing"] = false, -- Tự động bật tính năng Double Or Nothing (Cược nhân đôi)
     ["Double Or Nothing Target Wins"] = 1, -- Số trận thắng mục tiêu khi chơi Double Or Nothing
-    ["FPS Cap"] = 15, -- Giới hạn FPS xuống 5 để treo máy mượt, tiết kiệm tối đa CPU/GPU
+    ["FPS Cap"] = 10, -- Giới hạn FPS xuống 5 để treo máy mượt, tiết kiệm tối đa CPU/GPU
     ["Auto Buy Seed"] = true, -- Tự động mua hạt giống theo danh sách cấu hình
     ["Auto Plant Seed"] = true, -- Tự động trồng hạt giống xuống đất
     ["Limit Plant Seed"] = {
         ["Carrot"] = 50, 
             },
     ["Limit Buy Seed"] = {
-		["Maple Carrot"] = 20,
-		["Maple Strawberry"] = 20,
-		["Maple Blueberry"] = 20,
-		["Maple Tulip"] = 20,
 		["Maple Tomato"] = 20,
 		["Maple Apple"] = 20,
 		["Maple Bamboo"] = 900,
 		["Maple Corn"] = 20,
-		["Maple Cactus"] = 20,
-		["Maple Pineapple"] = 20,
 		["Maple Mushroom"] = 200,
 		["Maple Green Bean"] = 20,
 		["Maple Venus Fly Trap"] = 10,
 		["Maple Pomegranate"] = 10,
 		["Maple Poison Apple"] = 10,
 		["Maple Venom Spitter"] = 10,
-		["Maple Sunflower"] = 20,
 		["Maple Cherry"] = 20,
 		["Maple Acorn"] = 20,
 		["Maple Dragon Fruit"] = 20,
@@ -48,11 +41,11 @@ getgenv().UserConfig = {
         
         -- Rare
         ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Turkey"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Turkey"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
         
         -- Legendary
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Swan"] = 99,
+        ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
         
         -- Mythic
         ["Fox"] = 999,
@@ -62,7 +55,7 @@ getgenv().UserConfig = {
         ["Shadow Dragon"] = 999,
     },
 	["Equip Pets"] = {
-		{"Swan", 6, 1}, 
+		{"Turkey", 6, 1}, 
 	},
 	["Sell Pets"] = {
         -- Cấu hình tự động bán pet (Thêm dấu `--` ở đầu để tạm tắt)
@@ -106,7 +99,7 @@ getgenv().UserConfig = {
 		["Pet"] = {
         ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
         ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Turkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
+        ["Turkey"] = { Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
         ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
         ["Swan"] = {Normal = 2, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
