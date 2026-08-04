@@ -11,7 +11,7 @@ getgenv().UserConfig = {
             },
     ["Limit Buy Seed"] = {
 		["Maple Apple"] = 20,
-		["Maple Bamboo"] = 900,
+		["Maple Bamboo"] = 2000,
 		["Maple Corn"] = 20,
 		["Maple Cactus"] = 20,
 		["Maple Pineapple"] = 20,
