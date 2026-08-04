@@ -57,8 +57,9 @@ getgenv().UserConfig = {
     ["Unlock Pet Slots"] = 6, -- Số ô chứa pet muốn mở khóa
     ["Auto Collect Seed Packs"] = true, -- Tự động nhặt các túi hạt giống rơi trên mặt đất
     ["Merge Eclipse Bloom"] = true, -- Tự động gộp hoa Eclipse Bloom
-    ["Gears"] = {
+     ["Gears"] = {
         ["Buy Gear"] = {
+			["Harp"] = 30,
 		   ["Syrup Watering Can"] = 500,
 		   ["Syrup Sprinkler"] = 500,
 			["Super Syrup Sprinkler"] = 100, -- Mua vòi si-rô siêu cấp
@@ -66,13 +67,14 @@ getgenv().UserConfig = {
 			["Super Magic Mail"] = 100,
         },
         ["Gears To Use"] = {
+			["Harp"] = {["Min Sheckles"] = "35m"},
             "Syrup Sprinkler", -- Sử dụng bình tưới nước thường
             "Syrup Watering Can", -- Sử dụng vòi nước thường
         },
     },
 	-- [ THÔNG BÁO DISCORD - WEBHOOK ]
-    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Pet
-    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Shadow Dragon"}, -- Tên các loại pet cần gửi thông báo
+    ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1524746579502829690/B9P39iFTqtFJlGGF6Hv8Ipvtlk2yvRc8uVrsZ1jgpstXiwTdnzhVxkPtMPgaYqBeSaNN", -- Link Webhook Discord nhận thông báo Pet
+    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Swan", "Fox", "Wolf", "Shadow Dragon"}, -- Tên các loại pet cần gửi thông báo
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"}, -- Độ hiếm của pet cần gửi thông báo
 	
 	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Hạt giống
