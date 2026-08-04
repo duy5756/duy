@@ -40,8 +40,8 @@ getgenv().UserConfig = {
         ["Turkey"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Fox"] = 999,
-        ["Wolf"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Fox"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Wolf"] = 99,
         ["Shadow Dragon"] = 999,
     },
 	["Equip Pets"] = {
@@ -72,7 +72,7 @@ getgenv().UserConfig = {
     },
 	-- [ THÔNG BÁO DISCORD - WEBHOOK ]
     ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Pet
-    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Wolf", "Shadow Dragon"}, -- Tên các loại pet cần gửi thông báo
+    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Shadow Dragon"}, -- Tên các loại pet cần gửi thông báo
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"}, -- Độ hiếm của pet cần gửi thông báo
 	
 	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Hạt giống
@@ -95,7 +95,7 @@ getgenv().UserConfig = {
         ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
         ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
         ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
-        ["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
+        ["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
            
         },
