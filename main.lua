@@ -102,8 +102,8 @@ getgenv().UserConfig = {
         ["Seed"] = {
 		["Maple Bamboo"] = 500,
 		["Maple Venus Fly Trap"] = 1,
-		["Maple Pomegranate"] = 1,
-		["Maple Poison Apple"] = 1,
+		["Maple Pomegranate"] = {Amount = 1, To = "noopbt"},
+		["Maple Poison Apple"] = {Amount = 1, To = "noopbt"},
 		["Maple Venom Spitter"] = 1,
 		["Conifer Cone"] = 1,
 		["Atlantic Giant Pumpkin"] = 1,
