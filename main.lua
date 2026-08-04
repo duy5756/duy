@@ -59,6 +59,7 @@ getgenv().UserConfig = {
     ["Merge Eclipse Bloom"] = true, -- Tự động gộp hoa Eclipse Bloom
     ["Gears"] = {
         ["Buy Gear"] = {
+			["Harp"] = 30,
 		   ["Syrup Watering Can"] = 500,
 		   ["Syrup Sprinkler"] = 500,
 			["Super Syrup Sprinkler"] = 100, -- Mua vòi si-rô siêu cấp
@@ -66,6 +67,7 @@ getgenv().UserConfig = {
 			["Super Magic Mail"] = 100,
         },
         ["Gears To Use"] = {
+			["Harp"] = {["Min Sheckles"] = "35m"},
             "Syrup Sprinkler", -- Sử dụng bình tưới nước thường
             "Syrup Watering Can", -- Sử dụng vòi nước thường
         },
