@@ -31,24 +31,13 @@ getgenv().UserConfig = {
 	["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
     ["Favorite"] = {}, -- Danh sách mục yêu thích
     ["Buy Pets"] = {
-          -- Cấu hình tự động mua các loại pet (Thêm dấu `--` ở đầu để tạm tắt mua pet đó)
-        
-        -- Uncommon
-        ["Dog"] = {Big = 99, Huge = 99, Rainbow = 99},
-        
-        -- Rare
-        ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Dog"] = {Huge = 99, Rainbow = 99},
+        ["Hedgehog"] = {Huge = 99, Rainbow = 99},
         ["Turkey"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
-        
-        -- Legendary
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
-        
-        -- Mythic
         ["Fox"] = 999,
         ["Wolf"] = {Big = 99, Huge = 99, Rainbow = 99},
-
-        -- Super
         ["Shadow Dragon"] = 999,
     },
 	["Equip Pets"] = {
