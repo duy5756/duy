@@ -3,20 +3,30 @@ script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB"; -- Điền Key script của b�
 getgenv().UserConfig = {
 	["Auto Double Or Nothing"] = false, -- Tự động bật tính năng Double Or Nothing (Cược nhân đôi)
     ["Double Or Nothing Target Wins"] = 1, -- Số trận thắng mục tiêu khi chơi Double Or Nothing
-    ["FPS Cap"] = 15, -- Giới hạn FPS xuống 5 để treo máy mượt, tiết kiệm tối đa CPU/GPU
+    ["FPS Cap"] = 10, -- Giới hạn FPS xuống 5 để treo máy mượt, tiết kiệm tối đa CPU/GPU
     ["Auto Buy Seed"] = true, -- Tự động mua hạt giống theo danh sách cấu hình
     ["Auto Plant Seed"] = true, -- Tự động trồng hạt giống xuống đất
     ["Limit Plant Seed"] = {
         ["Carrot"] = 50, 
             },
-    ["Limit Buy Seed"] = {
+   ["Limit Buy Seed"] = {
+		["Maple Carrot"] = 20,
+		["Maple Strawberry"] = 20,
+		["Maple Blueberry"] = 20,
+		["Maple Tulip"] = 20,
+		["Maple Tomato"] = 20,
 		["Maple Apple"] = 20,
-		["Maple Bamboo"] = 900,
+		["Maple Bamboo"] = 20,
 		["Maple Corn"] = 20,
 		["Maple Cactus"] = 20,
 		["Maple Pineapple"] = 20,
-		["Maple Mushroom"] = 200,
+		["Maple Mushroom"] = 20,
 		["Maple Green Bean"] = 20,
+		["Maple Venus Fly Trap"] = 10,
+		["Maple Pomegranate"] = 10,
+		["Maple Poison Apple"] = 10,
+		["Maple Venom Spitter"] = 10,
+		["Maple Sunflower"] = 20,
 		["Maple Cherry"] = 20,
 		["Maple Acorn"] = 20,
 		["Maple Dragon Fruit"] = 20,
@@ -31,24 +41,13 @@ getgenv().UserConfig = {
 	["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
     ["Favorite"] = {}, -- Danh sách mục yêu thích
     ["Buy Pets"] = {
-          -- Cấu hình tự động mua các loại pet (Thêm dấu `--` ở đầu để tạm tắt mua pet đó)
-        
-        -- Uncommon
-        ["Dog"] = {Big = 99, Huge = 99, Rainbow = 99},
-        
-        -- Rare
-        ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Dog"] = {Huge = 99, Rainbow = 99},
+        ["Hedgehog"] = {Huge = 99, Rainbow = 99},
         ["Turkey"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
-        
-        -- Legendary
         ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
-        
-        -- Mythic
         ["Fox"] = 999,
-        ["Wolf"] = 999,
-
-        -- Super
+        ["Wolf"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Shadow Dragon"] = 999,
     },
 	["Equip Pets"] = {
@@ -98,7 +97,7 @@ getgenv().UserConfig = {
         ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Turkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
-        ["Swan"] = {Normal = 2, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Swan"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
@@ -107,7 +106,6 @@ getgenv().UserConfig = {
            
         },
         ["Seed"] = {
-		["Maple Bamboo"] = 300,
 		["Maple Venus Fly Trap"] = 1,
 		["Maple Pomegranate"] = 1,
 		["Maple Poison Apple"] = 1,
@@ -128,7 +126,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Pomegranate" , "Maple Poison Apple" , "Maple Venom Spitter", "Maple Bamboo"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Pomegranate" , "Maple Poison Apple" , "Maple Venom Spitter"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
