@@ -80,7 +80,7 @@ getgenv().UserConfig = {
     ["Discord ID"] = "1269564008915144705", -- ID Discord của bạn để tag
 	
 		-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {"trimiozz"}, -- Tên tài khoản chính nhận đồ
+    ["Mail To Username"] = {"trimiozzz"}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
 		["Pet"] = {
         ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
@@ -105,9 +105,9 @@ getgenv().UserConfig = {
 		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "duypet99gem01"},
         },
         ["Gear"] = {
-			["Super Syrup Sprinkler"] = {Amount = 1, To = "trimiozz"},
-            ["Super Syrup Watering Can"] = {Amount = 2, To = "trimiozz"},
-            ["Super Magic Mail"] = {Amount = 1, To = "trimiozz"},
+			["Super Syrup Sprinkler"] = {Amount = 1, To = "tigertuban"},
+            ["Super Syrup Watering Can"] = {Amount = 2, To = "tigertuban"},
+            ["Super Magic Mail"] = {Amount = 1, To = "tigertuban"},
         },
 		["Other"] = {
         },
