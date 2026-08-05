@@ -9,18 +9,14 @@ getgenv().UserConfig = {
     ["Limit Plant Seed"] = {
         ["Carrot"] = 50, 
             },
-   ["Limit Buy Seed"] = {
-		["Maple Tomato"] = 20,
+    ["Limit Buy Seed"] = {
 		["Maple Apple"] = 20,
 		["Maple Bamboo"] = 2000,
 		["Maple Corn"] = 20,
 		["Maple Cactus"] = 20,
 		["Maple Pineapple"] = 20,
-		["Maple Mushroom"] = 20,
+		["Maple Mushroom"] = 200,
 		["Maple Green Bean"] = 20,
-		["Maple Venus Fly Trap"] = 10,
-		["Maple Venom Spitter"] = 10,
-		["Maple Sunflower"] = 20,
 		["Maple Cherry"] = 20,
 		["Maple Acorn"] = 20,
 		["Maple Dragon Fruit"] = 20,
@@ -29,6 +25,8 @@ getgenv().UserConfig = {
 		["Maple Banana"] = 20,
 		["Maple Coconut"] = 20,
 		["Conifer Cone"] = 20,
+		["Maple Venus Fly Trap"] = 10,
+		["Maple Venom Spitter"] = 10,
 		["Atlantic Giant Pumpkin"] = 10,
 		["Amber Cranberry"] = 10,
     },
@@ -37,8 +35,8 @@ getgenv().UserConfig = {
     ["Buy Pets"] = {
         ["Dog"] = {Huge = 99, Rainbow = 99},
         ["Hedgehog"] = {Huge = 99, Rainbow = 99},
-        ["Turkey"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
-        ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Turkey"] = {Normal = 6 , Huge = 99, Rainbow = 99},
+        ["Squirrel"] = { Huge = 99, Rainbow = 99},
         ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Fox"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Wolf"] = {Big = 99, Huge = 99, Rainbow = 99},
@@ -57,7 +55,7 @@ getgenv().UserConfig = {
     ["Unlock Pet Slots"] = 6, -- Số ô chứa pet muốn mở khóa
     ["Auto Collect Seed Packs"] = true, -- Tự động nhặt các túi hạt giống rơi trên mặt đất
     ["Merge Eclipse Bloom"] = true, -- Tự động gộp hoa Eclipse Bloom
-     ["Gears"] = {
+    ["Gears"] = {
         ["Buy Gear"] = {
 			["Harp"] = 30,
 		   ["Syrup Watering Can"] = 500,
@@ -102,7 +100,7 @@ getgenv().UserConfig = {
            
         },
         ["Seed"] = {
-				["Maple Bamboo"] = 800,
+		["Maple Bamboo"] = 800,
 		["Maple Venus Fly Trap"] = 1,
 		["Maple Pomegranate"] = 1,
 		["Maple Poison Apple"] = 1,
@@ -123,7 +121,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Pomegranate" , "Maple Poison Apple" , "Maple Venom Spitter"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Pomegranate" , "Maple Poison Apple" , "Maple Venom Spitter", "Maple Bamboo"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
