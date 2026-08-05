@@ -102,6 +102,7 @@ getgenv().UserConfig = {
            
         },
         ["Seed"] = {
+				["Maple Bamboo"] = 800,
 		["Maple Venus Fly Trap"] = 1,
 		["Maple Pomegranate"] = 1,
 		["Maple Poison Apple"] = 1,
