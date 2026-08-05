@@ -102,9 +102,9 @@ getgenv().UserConfig = {
 		["Maple Venus Fly Trap"] = {Amount = 1, To = "duypet99gem01"},
 		["Maple Pomegranate"] = {Amount = 1, To = "duypet99gem01"},
 		["Maple Poison Apple"] = {Amount = 1, To = "duypet99gem01"},
-		["Maple Venom Spitter"] = {Amount = 1, To = "duypet99gem01"},
+		["Maple Venom Spitter"] = {Amount = 1, To = "hello576352"},
 		["Conifer Cone"] = {Amount = 1, To = "duypet99gem01"},
-		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "duypet99gem01"},
+		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "hello576352"},
         },
         ["Gear"] = {
 			["Super Syrup Sprinkler"] = {Amount = 1, To = "tigertuban"},
