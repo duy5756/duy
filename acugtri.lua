@@ -100,7 +100,7 @@ getgenv().UserConfig = {
            
         },
         ["Seed"] = {
-		["Maple Bamboo"] = {Amount = 500, To = "duypet99gem01"},
+		["Maple Bamboo"] = {Amount = 800, To = "duypet99gem01"},
 		["Maple Venus Fly Trap"] = {Amount = 1, To = "duypet99gem01"},
 		["Maple Pomegranate"] = {Amount = 1, To = "duypet99gem01"},
 		["Maple Poison Apple"] = {Amount = 1, To = "duypet99gem01"},
