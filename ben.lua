@@ -30,7 +30,6 @@ getgenv().UserConfig = {
 		["Maple Banana"] = 20,
 		["Maple Coconut"] = 20,
 		["Conifer Cone"] = 20,
-		["Maple Venus Fly Trap"] = 10,
 		["Atlantic Giant Pumpkin"] = 10,
 		["Amber Cranberry"] = 10,
     },
