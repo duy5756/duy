@@ -35,13 +35,14 @@ getgenv().UserConfig = {
     ["Buy Pets"] = {
         ["Dog"] = {Huge = 99, Rainbow = 99},
         ["Hedgehog"] = {Huge = 99, Rainbow = 99},
-        ["Turkey"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
-        ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Turkey"] = {Normal = 6 , Huge = 99, Rainbow = 99},
+        ["Squirrel"] = { Huge = 99, Rainbow = 99},
         ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Fox"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Wolf"] = {Big = 99, Huge = 99, Rainbow = 99},
+        ["Wolf"] = {Normal = 4 , Big = 99, Huge = 99, Rainbow = 99},
         ["Shadow Dragon"] = 999,
     },
+	["Equip Wolf At Night"] = true,
 	["Equip Pets"] = {
 		{"Turkey", 6, 1}, 
 	},
@@ -95,7 +96,7 @@ getgenv().UserConfig = {
         ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
         ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
         ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
-        ["Wolf"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Wolf"] = { Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
            
         },
