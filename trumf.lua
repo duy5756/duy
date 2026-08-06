@@ -70,7 +70,7 @@ getgenv().UserConfig = {
     },
 	-- [ THÔNG BÁO DISCORD - WEBHOOK ]
     ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Pet
-    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel"}, -- Tên các loại pet cần gửi thông báo
+    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Fox", "Wolf"}, -- Tên các loại pet cần gửi thông báo
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"}, -- Độ hiếm của pet cần gửi thông báo
 	
 	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Hạt giống
