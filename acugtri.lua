@@ -73,7 +73,7 @@ getgenv().UserConfig = {
     },
 	-- [ THÔNG BÁO DISCORD - WEBHOOK ]
     ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Pet
-    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Swan"}, -- Tên các loại pet cần gửi thông báo
+    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Swan" , "fox" , "wolf"}, -- Tên các loại pet cần gửi thông báo
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"}, -- Độ hiếm của pet cần gửi thông báo
 	
 	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Hạt giống
@@ -88,16 +88,16 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"trimiozzz"}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
 		["Pet"] = {
-        ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Turkey"] = { Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Swan"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Turkey"] = { Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Swan"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
         ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
         ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
-        ["Wolf"] = { Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
-        ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
+        ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Wolf"] = { Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
            
         },
         ["Seed"] = {
