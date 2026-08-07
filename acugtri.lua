@@ -93,7 +93,7 @@ getgenv().UserConfig = {
         ["Turkey"] = { Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
         ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
         ["Swan"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
-        ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
+        ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
         ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
         ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
         ["Wolf"] = { Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
@@ -110,9 +110,9 @@ getgenv().UserConfig = {
 		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "trimiozz"},
         },
         ["Gear"] = {
-			["Super Syrup Sprinkler"] = {Amount = 1, To = "tigertuban"},
-            ["Super Syrup Watering Can"] = {Amount = 2, To = "tigertuban"},
-            ["Super Magic Mail"] = {Amount = 1, To = "tigertuban"},
+			["Super Syrup Sprinkler"] = {Amount = 1, To = "trimiozzz"},
+            ["Super Syrup Watering Can"] = {Amount = 2, To = "trimiozzz"},
+            ["Super Magic Mail"] = {Amount = 1, To = "trimiozzz"},
         },
 		["Other"] = {
         },
