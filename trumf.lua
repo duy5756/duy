@@ -86,16 +86,16 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"trimiozzz"}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
 		["Pet"] = {
-        ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Turkey"] = { Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Swan"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
-        ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Wolf"] = {Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
-        ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "trimiozz"},
+        ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Turkey"] = { Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Swan"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Wolf"] = {Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
+        ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "tigertuban"},
            
         },
         ["Seed"] = {
@@ -105,12 +105,12 @@ getgenv().UserConfig = {
 		["Maple Poison Apple"] = {Amount = 1, To = "duypet99gem01"},
 		["Maple Venom Spitter"] = {Amount = 1, To = "hello576352"},
 		["Conifer Cone"] = {Amount = 1, To = "duypet99gem01"},
-		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "trimiozzz"},
+		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "trimiozz"},
         },
         ["Gear"] = {
-			["Super Syrup Sprinkler"] = {Amount = 1, To = "tigertuban"},
-            ["Super Syrup Watering Can"] = {Amount = 2, To = "tigertuban"},
-            ["Super Magic Mail"] = {Amount = 1, To = "tigertuban"},
+			["Super Syrup Sprinkler"] = {Amount = 1, To = "trimiozzz"},
+            ["Super Syrup Watering Can"] = {Amount = 2, To = "trimiozzz"},
+            ["Super Magic Mail"] = {Amount = 1, To = "trimiozzz"},
         },
 		["Other"] = {
         },
