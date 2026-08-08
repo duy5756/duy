@@ -72,7 +72,6 @@ getgenv().UserConfig = {
 			["Super Magic Mail"] = 100,
         },
         ["Gears To Use"] = {
-			["Harp"] = {["Min Sheckles"] = "35m"},
             "Syrup Sprinkler", -- Sử dụng bình tưới nước thường
             "Syrup Watering Can", -- Sử dụng vòi nước thường
         },
@@ -118,6 +117,7 @@ getgenv().UserConfig = {
 			["Super Syrup Sprinkler"] = {Amount = 1, To = "duypet99gem01"},
             ["Super Syrup Watering Can"] = {Amount = 2, To = "duypet99gem01"},
             ["Super Magic Mail"] = {Amount = 1, To = "duypet99gem01"},
+			["Harp"] = {Amount = 5, To = "duyngoai08"},
         },
 		["Other"] = {
         },
