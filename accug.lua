@@ -102,8 +102,8 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
 		["Maple Venus Fly Trap"] = 1,
-		["Maple Pomegranate"] = 1,
-		["Maple Poison Apple"] = 1,
+		["Rainbow"] = {Amount = 5, To = "duyhang01"},
+		["Gold"] = {Amount = 10, To = "duyhang01"},
 		["Maple Venom Spitter"] = {Amount = 1, To = "duypet99gem01"},
 		["Conifer Cone"] = 1,
 		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "duypet99gem01"},
@@ -114,7 +114,6 @@ getgenv().UserConfig = {
             ["Super Magic Mail"] = {Amount = 1, To = "duypet99gem01"},
         },
 		["Other"] = {
-			["Harp"] = {Amount = 5, To = "duyngoai08"},
         },
     },
     ["Claim Mail"] = true, -- Tự động nhận thư gửi đến
@@ -122,7 +121,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Pomegranate" , "Maple Poison Apple" , "Maple Venom Spitter"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Pomegranate" , "Maple Poison Apple" , "Maple Venom Spitter", "Rainbow", "Gold"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
