@@ -73,7 +73,7 @@ getgenv().UserConfig = {
 			["Super Magic Mail"] = 100,
         },
         ["Gears To Use"] = {
-			["Harp"] = {["Min Sheckles"] = "35m"},
+			"Harp",
             "Syrup Sprinkler", -- Sử dụng bình tưới nước thường
             "Syrup Watering Can", -- Sử dụng vòi nước thường
         },
@@ -103,7 +103,7 @@ getgenv().UserConfig = {
         ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Firefly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
-        ["Wolf"] = {Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
+        ["Wolf"] = {Huge = 1, Rainbow = 1, To = "hello576352"},
         ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "hello576352"},
            
         },
