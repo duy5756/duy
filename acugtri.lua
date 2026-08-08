@@ -66,7 +66,6 @@ getgenv().UserConfig = {
 			["Super Magic Mail"] = 100,
         },
         ["Gears To Use"] = {
-			["Harp"] = {["Min Sheckles"] = "35m"},
             "Syrup Sprinkler", -- Sử dụng bình tưới nước thường
             "Syrup Watering Can", -- Sử dụng vòi nước thường
         },
@@ -115,6 +114,7 @@ getgenv().UserConfig = {
             ["Super Magic Mail"] = {Amount = 1, To = "trimiozzz"},
         },
 		["Other"] = {
+			["Harp"] = {Amount = 5, To = "duyngoai08"},
         },
     },
     ["Claim Mail"] = true, -- Tự động nhận thư gửi đến
