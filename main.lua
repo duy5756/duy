@@ -72,7 +72,7 @@ getgenv().UserConfig = {
 			["Super Magic Mail"] = 100,
         },
         ["Gears To Use"] = {
-			"Harp"
+			"Harp",
             "Syrup Sprinkler", -- Sử dụng bình tưới nước thường
             "Syrup Watering Can", -- Sử dụng vòi nước thường
         },
