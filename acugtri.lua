@@ -77,7 +77,7 @@ getgenv().UserConfig = {
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"}, -- Độ hiếm của pet cần gửi thông báo
 	
 	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Hạt giống
-    ["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Maple Pomegranate", "Maple Venus Fly Trap", "Maple Poison Apple", "Maple Venom Spitter", "Conifer Cone", "Atlantic Giant Pumpkin", "Amber Cranberry"}, -- Tên các loại hạt giống cần thông báo
+    ["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Maple Pomegranate", "Maple Venus Fly Trap", "Maple Poison Apple", "Maple Venom Spitter", "Conifer Cone", "Amber Cranberry"}, -- Tên các loại hạt giống cần thông báo
 	
 	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1522633978605998080/vbxArKi1LrVCrX8tCOib7EI3TqjJVqDrtnTOwXNXr1ZFI2dH2VeZvcsD511TfnzZkMIB", -- Link Webhook Discord nhận thông báo Dụng cụ
 	["Webhook Gear Name"] = {"Super Syrup Sprinkler", "Super Syrup Watering Can", "Super Magic Mail"}, -- Tên các dụng cụ cần thông báo
@@ -107,7 +107,7 @@ getgenv().UserConfig = {
 		["Maple Poison Apple"] = {Amount = 1, To = "duypet99gem01"},
 		["Maple Venom Spitter"] = {Amount = 1, To = "hello576352"},
 		["Conifer Cone"] = {Amount = 1, To = "duypet99gem01"},
-		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "trimiozz"},
+		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "duypet99gem01"},
         },
         ["Gear"] = {
 			["Super Syrup Sprinkler"] = {Amount = 1, To = "trimiozzz"},
