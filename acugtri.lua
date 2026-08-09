@@ -107,6 +107,7 @@ getgenv().UserConfig = {
 		["Maple Venom Spitter"] = {Amount = 1, To = "hello576352"},
 		["Conifer Cone"] = {Amount = 1, To = "duypet99gem01"},
 		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "trimiozz"},
+			["Amber Cranberry"] = 1,
         },
         ["Gear"] = {
 			["Super Syrup Sprinkler"] = {Amount = 1, To = "trimiozzz"},
