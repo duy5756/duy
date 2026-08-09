@@ -122,7 +122,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Pomegranate" , "Maple Poison Apple" , "Maple Venom Spitter", "Maple Bamboo", "Rainbow", "Gold"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Pomegranate" , "Maple Poison Apple" , "Maple Venom Spitter", "Maple Bamboo", "Rainbow", "Gold" , "Conifer Cone"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
