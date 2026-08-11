@@ -1,6 +1,6 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
 
-script_key = "WGzaCAWmcewGhEJUiOnLAhclyigYNSFB"; -- Điền Key script của bạn vào đây
+script_key = "lFSkkGwvCoYunGhDgvgbShkUPmqbtmou"; -- Điền Key script của bạn vào đây
 
 getgenv().UserConfig = {
 	["Auto Double Or Nothing"] = false, -- Tự động bật tính năng Double Or Nothing (Cược nhân đôi)
