@@ -109,8 +109,8 @@ getgenv().UserConfig = {
 		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "duypet99gem01"},
         },
         ["Gear"] = {
-			["Super Syrup Sprinkler"] = {Amount = 1, To = "duyhang02"},
-            ["Super Syrup Watering Can"] = {Amount = 2, To = "duyhang02"},
+			["Super Syrup Sprinkler"] = {Amount = 3, To = "duyhang02"},
+            ["Super Syrup Watering Can"] = {Amount = 3, To = "duyhang02"},
             ["Super Magic Mail"] = {Amount = 1, To = "duyhang02"},
         },
 		["Other"] = {
