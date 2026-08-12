@@ -34,7 +34,7 @@ getgenv().UserConfig = {
     ["Buy Pets"] = {
 	  ["Dog"] = {Huge = 99, Rainbow = 99},
         ["Hedgehog"] = {Huge = 99, Rainbow = 99},
-        ["Turkey"] = {Normal = 6 , Huge = 99, Rainbow = 99},
+        ["Turkey"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
         ["Squirrel"] = { Huge = 99, Rainbow = 99},
         ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Fox"] = {Big = 99, Huge = 99, Rainbow = 99},
@@ -94,7 +94,7 @@ getgenv().UserConfig = {
 		["Pet"] = {
         ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
         ["Hedgehog"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
-        ["Turkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
+        ["Turkey"] = {Huge = 1, Rainbow = 1, To = "duypet99gem01"},
         ["Squirrel"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
         ["Swan"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
         ["Jandel Monkey"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
