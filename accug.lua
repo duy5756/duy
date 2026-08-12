@@ -32,14 +32,22 @@ getgenv().UserConfig = {
 	["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
     ["Favorite"] = {}, -- Danh sách mục yêu thích
     ["Buy Pets"] = {
-        ["Dog"] = {Huge = 99, Rainbow = 99},
-        ["Hedgehog"] = {Huge = 99, Rainbow = 99},
-        ["Turkey"] = {Normal = 6 , Huge = 99, Rainbow = 99},
-        ["Squirrel"] = { Huge = 99, Rainbow = 99},
-        ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Fox"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Wolf"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
+        ["Dog"] = 999,
+        ["Hedgehog"] = 999,
+        ["Turkey"] = 999,
+        ["Squirrel"] = 999,
+        ["Swan"] = 999,
+        ["Fox"] = 999,
+        ["Wolf"] = 999,
         ["Shadow Dragon"] = 999,
+	  -- ["Dog"] = {Huge = 99, Rainbow = 99},
+   --      ["Hedgehog"] = {Huge = 99, Rainbow = 99},
+   --      ["Turkey"] = {Normal = 6 , Huge = 99, Rainbow = 99},
+   --      ["Squirrel"] = { Huge = 99, Rainbow = 99},
+   --      ["Swan"] = {Big = 99, Huge = 99, Rainbow = 99},
+   --      ["Fox"] = {Big = 99, Huge = 99, Rainbow = 99},
+   --      ["Wolf"] = {Normal = 6 , Big = 99, Huge = 99, Rainbow = 99},
+   --      ["Shadow Dragon"] = 999,
     },
 	["Equip Wolf At Night"] = true,
 	["Equip Pets"] = {
@@ -50,6 +58,11 @@ getgenv().UserConfig = {
 		-- ["Frog"] = {Normal = 6},
 		-- ["Bunny"] = {Normal = 6}
 	},
+	    -- === CORNUCOPIA (mặc định true, set false để tắt) ===
+    ["Auto Use Cornucopia"] = true, -- Mặc định là true không cần set cũng được, vì nó cũng không thể gift để bán
+    ["Auto Use Egg"] = "All",
+    ["Auto Use Seed Pack"] = "All",
+	-- ok
     ["Expand Plot"] = true, -- Tự động mua mở rộng ô đất trồng
     ["Plot Expansions"] = 3, -- Số lần mua mở rộng ô đất mục tiêu
     ["Unlock Pet Slots"] = 6, -- Số ô chứa pet muốn mở khóa
@@ -72,11 +85,11 @@ getgenv().UserConfig = {
     },
 	-- [ THÔNG BÁO DISCORD - WEBHOOK ]
     ["Webhook Pet URL"] = "https://discord.com/api/webhooks/1520466700884115558/UGQT9MHNQX8yxA3kHR073ExOKTW2DgDOrT2VpnPSKLj5PiFZX9AnKrGzvuLRo2Qe-Rxc", -- Link Webhook Discord nhận thông báo Pet
-    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Swan", "Fox", "Wolf", "Shadow Dragon"}, -- Tên các loại pet cần gửi thông báo
+    ["Webhook Pet Name"] = {"Dog", "Hedgehog", "Turkey", "Squirrel", "Swan", "Fox", "Wolf", "Red Panda", "Kitsune", "Shadow Dragon", "Jandel Monkey" , "Jackalope", "Scarecrow"}, -- Tên các loại pet cần gửi thông báo
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"}, -- Độ hiếm của pet cần gửi thông báo
 	
 	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1520466518104608970/yH3BmsZZtSuvznYBGJs-57ys1zk4OJlxzWm1fF1fJM_N_wpvfhgmKt4nIMBSnf3nSgoN", -- Link Webhook Discord nhận thông báo Hạt giống
-    ["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Maple Pomegranate", "Maple Venus Fly Trap", "Maple Poison Apple", "Maple Venom Spitter", "Conifer Cone", "Amber Cranberry" , "Atlantic Giant Pumpkin"}, -- Tên các loại hạt giống cần thông báo
+    ["Webhook Seed Name"] = {"Rainbow", "Gold", "Mega", "Maple Pomegranate", "Maple Venus Fly Trap", "Maple Poison Apple", "Maple Venom Spitter", "Conifer Cone", "Amber Cranberry" , "Atlantic Giant Pumpkin", "Romanesco", "Honeysuckle", "Plum"}, -- Tên các loại hạt giống cần thông báo
 	
 	["Webhook Gear URL"] = "https://discord.com/api/webhooks/1520466786095595650/0fEwvTDJS39ZeJQ_aUDD_bCg3Ukss2YA5h-rk43y5F2V3kZgeBLSEo8prn09lvqgJ-z9", -- Link Webhook Discord nhận thông báo Dụng cụ
 	["Webhook Gear Name"] = {"Super Syrup Sprinkler", "Super Syrup Watering Can", "Super Magic Mail"}, -- Tên các dụng cụ cần thông báo
@@ -120,7 +133,7 @@ getgenv().UserConfig = {
 	-- [ CẤU HÌNH NÂNG CAO ]
     ["Auto Plant"] = true, -- Bật tự động trồng cây
     ["Limit Auto Plant"] = 800, -- Giới hạn số lượng trồng tự động tối đa (800)
-    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Poison Apple" , "Maple Venom Spitter", "Rainbow", "Gold", "Conifer Cone"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
+    ["Blacklist Seed"] = {"Amber Cranberry" , "Maple Venus Fly Trap" , "Atlantic Giant Pumpkin" , "Maple Poison Apple" , "Maple Venom Spitter", "Rainbow", "Gold", "Conifer Cone", "Romanesco", "Honeysuckle", "Plum"}, -- Danh sách hạt giống bị cấm (Đã fix thêm dấu phẩy ở cuối dòng để tránh lỗi script)
     ["Blacklist Shovel"] = {
         -- Danh sách các loại cây cấm dùng xẻng xúc theo cấp độ
 	"Maple Venus Fly Trap", 
