@@ -89,7 +89,7 @@ getgenv().UserConfig = {
     ["Discord ID"] = "908622152834625599", -- ID Discord của bạn để tag
 	
 		-- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {"duypet99gem01"}, -- Tên tài khoản chính nhận đồ
+    ["Mail To Username"] = {"hello576352"}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
 		["Pet"] = {
         ["Dog"] =  {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
@@ -108,7 +108,7 @@ getgenv().UserConfig = {
 		["Maple Venus Fly Trap"] = 1,
 		["Rainbow"] = {Amount = 5, To = "duyhang01"},
 		["Gold"] = {Amount = 10, To = "duyhang01"},
-		["Maple Venom Spitter"] = {Amount = 1, To = "duypet99gem01"},
+		["Amber Cranberry"] = 1,
 		["Conifer Cone"] = 1,
 		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "duypet99gem01"},
         },
