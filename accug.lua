@@ -110,7 +110,7 @@ getgenv().UserConfig = {
 		["Gold"] = {Amount = 10, To = "duyhang01"},
 		["Amber Cranberry"] = 1,
 		["Conifer Cone"] = 1,
-		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "duypet99gem01"},
+		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "hello576352"},
         },
         ["Gear"] = {
 			["Super Syrup Sprinkler"] = {Amount = 3, To = "duyhang02"},
