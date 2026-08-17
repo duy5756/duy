@@ -102,6 +102,12 @@ getgenv().UserConfig = {
         ["Fox"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
         ["Wolf"] = {Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
         ["Shadow Dragon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "duypet99gem01"},
+		["Red Panda"] = 1,
+["Kitsune"] = 1,
+["Shadow Dragon"] = 1,
+["Jandel Monkey"] = 1,
+["Jackalope"] = 1,
+["Scarecrow"] = 1,
            
         },
         ["Seed"] = {
@@ -111,6 +117,9 @@ getgenv().UserConfig = {
 		["Amber Cranberry"] = 1,
 		["Conifer Cone"] = 1,
 		["Atlantic Giant Pumpkin"] = {Amount = 1, To = "hello576352"},
+			["Romanesco"] = 1,
+["Honeysuckle"] = 1,
+["Plum"] = 1,
         },
         ["Gear"] = {
 			["Super Syrup Sprinkler"] = {Amount = 3, To = "duyhang02"},
